@@ -1,0 +1,263 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+@import url(http://fonts.googleapis.com/css?family=Lobster|Cantarell|Oswald);
+/**
+ * Base
+ */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 720px;
+}
+
+a {
+  text-decoration: none;
+  color: #34352d;
+}
+
+h1, h2 {
+  font-weight: normal;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.m-b {
+  margin-bottom: 15px;
+}
+
+.m-t-s {
+  margin-top: 5px;
+}
+
+.badge {
+  display: inline-block;
+  min-width: 10px;
+  padding: 3px 7px;
+  margin: 0 1px 4px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  background-color: #777;
+  border-radius: 10px;
+}
+
+/**
+ * Animations
+ */
+
+@keyframes loadBar {
+  0% {
+    width: 50%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+/**
+ * Layout
+ */
+
+body {
+  font-family: 'Cantarell', sans-serif;
+  font-size: 10pt;
+  color: #34352d;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: lighter;
+  font-size: 13pt;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+h3 {
+  font-size: 11pt; 
+  margin-bottom: 5px;
+}
+
+@media print {
+  @page { margin: 0; }
+  body {-webkit-print-color-adjust: exact;}
+}
+
+header {
+  position: relative;
+
+  h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 44pt;
+    line-height: 44pt;
+    margin: 20px 0;
+
+    #name {
+      
+    }
+
+    #last-name {
+      display: block;
+      margin-left: 60px;
+    }
+  }
+
+  #zce {
+    width: 80px;
+    position: absolute;
+    right: 15px;
+    top: 30px;
+  }
+}
+
+aside {
+  position: relative;
+  
+  .highlights {
+    margin-bottom: 15px;
+
+    li {
+      margin: 2px 0;
+      position: relative;
+      padding-left: 10px;
+
+      &:before {
+        content: "\203A";
+        font-size: 11pt;
+        line-height: 11pt;
+        position: absolute;
+        left: 0;
+        top: 0px;
+      }
+    }
+  }
+
+  #social {
+    margin-top: 10px;
+
+    li {
+      margin: 4px 0;
+    }
+    i {
+      margin: 4px 2px 3px 0;
+      font-size: 1.6em;
+      display: inline-block;
+    }
+  }
+}
+
+.content {
+  position: relative;
+  margin-left: 28px;
+
+  &:before {
+    content: "";
+    position: absolute;
+    left: -17px;
+    top: 15px;
+    height: 96.5%;
+    width: 1px;
+    border-right: 1px solid #34352d;
+  }
+
+
+  .skills {
+    padding: 0 20px 0 0;
+    margin-bottom: 15px;
+
+    li{
+      color: #fff;
+      font-weight: bold;
+      margin: 6px 0;
+      background-color: #F0F0F0;
+      position: relative;
+      overflow: hidden;      
+      z-index: 0;
+
+      &:after {
+        content: '';
+        display: block;  
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 0;
+        height: 0;
+        border: 18px solid transparent;
+        border-right-color: #fff;
+      }
+
+      span {
+        display: inline-block;
+        position: relative;
+        background-color: #34352d;
+        padding: 1px 4px;
+        width: 100%;
+        animation-name: loadBar;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-out;
+        animation-duration: 2s;
+        
+        &:after {
+          content: '';
+          display: block;
+          position: absolute;
+          right: -18px;
+          top: 0;
+          width: 0;
+          z-index: -1;
+          height: 0;
+          border: 18px solid #34352d;
+          border-right-color: transparent;
+        }
+      }
+    }
+  }
+
+  #experience {
+    div {
+      margin-bottom: 10px;
+    }
+  }
+
+  #education {
+    li {
+      margin: 3px 0;
+      position: relative;
+      padding-left: 10px;
+
+      &:before {
+        content: "\203A";
+        font-size: 11pt;
+        line-height: 11pt;
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+    }
+  }
+
+  #knowledge {
+    margin-bottom: 15px;
+  }
+}

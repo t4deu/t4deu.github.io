@@ -1,0 +1,150 @@
+{
+  "about_title": "About",
+  "about": "I'm a web and mobile developer with more than 4 years of experience in rails, android and angularjs. I have worked on development of mobile solutions for major clients such as Lafarge a french industrial company and the CAHP Credit Union.
+<br>
+A recent deployed project was the Investor Relationship apps of Cielo credit card operator and Santander bank.
+<br>
+Colleagues know me by my creativity and development skills. But I know that the client's business comes first, and effective results are better code perfection.
+<br>
+I'm a specimen in constant evolution, learning and trying, like a shark that can't stop swimming. I love to work on different projects, especially if it's not on my current know-how.
+<br>
+If you have a freelance or remote job, contact me, I'm available.",
+  
+  "highlights_title": "Highlights",
+  "highlights": [
+		"Passion for code",
+		"Self and fast learning skills",
+		"Code in multiple languages",
+		"Best practices follower ",
+		"Continuous testing, refactoring",
+		"Write clean and reusable code",
+		"Gets right things done",
+		"Works well independently",
+		"Excelent Problem solving skills"
+  ]
+  
+  "contact_title": "Get in touch",
+  
+  "skills_title": "Skills"
+  "skills": [
+  	{
+  		title: "Development",
+  	 	"items": [
+				{
+				"percent": 80,
+				"title": "Ruby",
+				},
+				{
+					"percent": 85,
+					"title": "Php",
+				},
+				{
+					"percent": 75,
+					"title": "Android",
+				},
+				{
+					"percent": 70,
+					"title": "Javascript",
+				},
+				{
+					"percent": 83,
+					"title": "Ruby on Rails",
+				},
+				{
+					"percent": 74,
+					"title": "AngularJs"
+				}
+			]
+		},
+		{
+  		title: "Design",
+  	 	"items": [
+				{
+					"percent": 75,
+					"title": "Html5",
+				},
+				{
+					"percent": 60,
+					"title": "Css3"
+				}
+			]
+		},
+		{
+  		title: "Databases",
+  	 	"items": [
+				{
+					"percent": 67,
+					"title": "MySql",
+				},
+				{
+					"percent": 70,
+					"title": "MongoDb"
+				}
+			]
+		}
+  ],
+  
+  "tools_title": "Knowledge & Tools",
+  "tools": [
+  	"MVC",
+		"BDD & TDD",
+		"Domain Driven Development",
+		"Unix",
+		"Sass/less",
+		"A/b tests",
+		"MVP analisis and development",
+		"Design Patterns",
+		"Git"
+  ],
+  
+  "experience_title": "Experience",
+  "experience": [
+  	{
+			"company": "MeuMobi  2012 - now",
+			"description": "Development of various mobile apps for clients such as Santander,
+				Cielo, Embraer and Lafarge.
+				<br>
+				Development of advanced features of control and update of content
+				and users.<br>
+				Creation of an alert system that allows partners to send push
+				notifications for specific apps and users in iOS and Android
+				devices.<br>
+				Creation of advanced algorithms of data import services with
+				multiple data sources, such as RSS feeds, xml and json REST APIs.
+				Where  concurrency challenges that needed to be overcome at the
+				database and application layers."
+		},
+		{
+			"company": "Código Digital 2011 - 2012",
+			"description": "Development of apps and creation of web presences for various
+			businesses. With greater focus on Ux and Design using tools like
+			bootstrap, sass and CSS3."
+		},
+		{
+			"company": "Noix 2010 - 2011",
+			"description": "Creation of real-time integration between the catalog and sales of
+			a Magento Enterprise and the java ERP of a large local computer
+			store to allow the safe, effective and controlled transfer of high
+			importance data, such as customer addresses, orders and credit
+			cards. Also allow manage the catalog and stock of the online store
+			through the ERP."
+		}
+  ]
+  
+  "education_title": "Education",
+  "education": {
+  	"languages_title",
+  	"languages": [
+		"Portuguese native", 
+		"English fluent", 
+		"Spanish professional"
+  	],
+  	
+  	"courses_title": "Certification and Course",
+  	"courses": [
+  		"Certified PHP enginer developer",
+			"Android Development, Full Stack Web Development and Algorimts at Udacity",
+			"Javascript development at freecodecamp"
+  	]		
+  }
+}
