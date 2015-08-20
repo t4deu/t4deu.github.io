@@ -64,8 +64,8 @@
             </li>
           </ul>
       </aside>
-      <div id="skills" class="content pure-u-16-24">
-        <div>
+      <div class="content pure-u-16-24">
+        <div id="skills" class="m-b">
           <h2 ng-bind="vm.resume.skills_title"></h2>
           <div class="pure-g">
             <div class="pure-u-1-2">
@@ -98,7 +98,7 @@
             </div>
           </div>
         </div>
-        <div id="knowledge">
+        <div id="knowledge" class="m-b">
           <h2 ng-bind="vm.resume.tools_title"></h2>
           <p>
             <span class="badge" ng-repeat="tool in vm.resume.tools" ng-bind="tool"></span>

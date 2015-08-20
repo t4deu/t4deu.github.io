@@ -3,19 +3,17 @@
 ---
 
 @import url(http://fonts.googleapis.com/css?family=Lobster|Cantarell|Oswald);
+
 /**
  * Base
  */
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
-
-.container {
-  width: 720px;
 }
 
 a {
@@ -32,6 +30,7 @@ li {
 }
 
 .container {
+  max-width: 970px;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -39,7 +38,7 @@ li {
 }
 
 .m-b {
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 .m-t-s {
@@ -81,27 +80,22 @@ li {
 
 body {
   font-family: 'Cantarell', sans-serif;
-  font-size: 10pt;
+  font-size: 90%;
   color: #34352d;
-  margin-bottom: 20px;
+  margin: 25px 25px 50px;
 }
 
 h2 {
   font-family: 'Oswald', sans-serif;
   font-weight: lighter;
-  font-size: 13pt;
+  font-size: 1.4em;
   text-transform: uppercase;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 h3 {
-  font-size: 11pt; 
-  margin-bottom: 5px;
-}
-
-@media print {
-  @page { margin: 0; }
-  body {-webkit-print-color-adjust: exact;}
+  font-size: 1.2em;
+  margin-bottom: 10px;
 }
 
 header {
@@ -109,12 +103,12 @@ header {
 
   h1 {
     font-family: 'Lobster', cursive;
-    font-size: 44pt;
-    line-height: 44pt;
+    font-size: 5em;
+    line-height: 0.9em;
     margin: 20px 0;
 
     #name {
-      
+
     }
 
     #last-name {
@@ -133,10 +127,8 @@ header {
 
 aside {
   position: relative;
-  
-  .highlights {
-    margin-bottom: 15px;
 
+  .highlights {
     li {
       margin: 2px 0;
       position: relative;
@@ -176,15 +168,17 @@ aside {
     position: absolute;
     left: -17px;
     top: 15px;
-    height: 96.5%;
+    height: 94.5%;
     width: 1px;
     border-right: 1px solid #34352d;
   }
 
+  .skills + h3 {
+    margin-top: 15px;
+  }
 
   .skills {
     padding: 0 20px 0 0;
-    margin-bottom: 15px;
 
     li{
       color: #fff;
@@ -192,12 +186,16 @@ aside {
       margin: 6px 0;
       background-color: #F0F0F0;
       position: relative;
-      overflow: hidden;      
+      overflow: hidden;
       z-index: 0;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
 
       &:after {
         content: '';
-        display: block;  
+        display: block;
         position: absolute;
         right: 0;
         top: 0;
@@ -217,7 +215,7 @@ aside {
         animation-iteration-count: 1;
         animation-timing-function: ease-out;
         animation-duration: 2s;
-        
+
         &:after {
           content: '';
           display: block;
@@ -236,28 +234,50 @@ aside {
 
   #experience {
     div {
-      margin-bottom: 10px;
+      margin-bottom: 15px;
     }
   }
+}
 
-  #education {
-    li {
-      margin: 3px 0;
-      position: relative;
-      padding-left: 10px;
+@media print {
+  .m-b {
+   margin-bottom: 15px;
+  }
 
-      &:before {
-        content: "\203A";
-        font-size: 11pt;
-        line-height: 11pt;
-        position: absolute;
-        left: 0;
-        top: 0;
+  @page {
+    margin: 0;
+  }
+
+  body {
+    margin: 0 0 20px;
+    font-size: 10pt;
+    -webkit-print-color-adjust: exact;
+
+    .container {
+      width: 720px;
+    }
+
+    h2 {
+      font-size: 13pt;
+      margin-bottom: 5px;
+    }
+
+    h3 {
+      font-size: 11pt;
+      margin-bottom: 5px;
+    }
+
+    header{
+      h1 {
+        font-size: 44pt;
+        line-height: 44pt;
       }
     }
-  }
 
-  #knowledge {
-    margin-bottom: 15px;
+    .content {
+      &:before {
+        height: 96.5%;
+      }
+    }
   }
 }
