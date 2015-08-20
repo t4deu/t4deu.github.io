@@ -3,6 +3,8 @@
 ---
 
 @import url(http://fonts.googleapis.com/css?family=Lobster|Cantarell|Oswald);
+@import 'pure-min.css';
+@import 'grids-responsive-min.css';
 
 /**
  * Base
@@ -35,6 +37,10 @@ li {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+}
+
+.m-t {
+  margin-top: 25px;
 }
 
 .m-b {
@@ -82,7 +88,7 @@ body {
   font-family: 'Cantarell', sans-serif;
   font-size: 90%;
   color: #34352d;
-  margin: 25px 25px 50px;
+  margin: 10px;
 }
 
 h2 {
@@ -145,40 +151,24 @@ aside {
     }
   }
 
-  #social {
-    margin-top: 10px;
+}
 
-    li {
-      margin: 4px 0;
-    }
-    i {
-      margin: 4px 2px 3px 0;
-      font-size: 1.6em;
-      display: inline-block;
-    }
+.social {
+  margin-top: 10px;
+
+  li {
+    margin: 4px 0;
+  }
+  i {
+    margin: 4px 2px 3px 0;
+    font-size: 1.6em;
+    display: inline-block;
   }
 }
 
 .content {
-  position: relative;
-  margin-left: 28px;
-
-  &:before {
-    content: "";
-    position: absolute;
-    left: -17px;
-    top: 15px;
-    height: 94.5%;
-    width: 1px;
-    border-right: 1px solid #34352d;
-  }
-
-  .skills + h3 {
-    margin-top: 15px;
-  }
-
   .skills {
-    padding: 0 20px 0 0;
+    padding: 0 20px 15px 0;
 
     li{
       color: #fff;
@@ -239,22 +229,62 @@ aside {
   }
 }
 
+@media (min-width: 35.5em) {
+  .visible-md {display:block !important;}
+
+  body {
+    margin: 25px 25px 50px;
+  }
+  .content {
+    position: relative;
+    margin-left: 28px;
+
+    &:before {
+      content: "";
+      position: absolute;
+      left: -17px;
+      top: 15px;
+      height: 94.5%;
+      width: 1px;
+      border-right: 1px solid #34352d;
+    }
+
+    .skills {
+      padding: 0 20px 0 0;
+    }
+
+    .skills + h3 {
+      margin-top: 15px;
+    }
+
+  }
+}
+
 @media print {
+
+  .m-t {
+    margin-top: 15px;
+  }
+
   .m-b {
    margin-bottom: 15px;
   }
 
   @page {
+    size: A4;
     margin: 0;
   }
 
   body {
+    width: 210mm;
+    height: 297mm;
+
     margin: 0 0 20px;
     font-size: 10pt;
     -webkit-print-color-adjust: exact;
 
     .container {
-      width: 720px;
+      width: auto;
     }
 
     h2 {
