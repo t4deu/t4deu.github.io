@@ -115,12 +115,12 @@
           <h2 ng-bind="vm.resume.education_title"></h2>
           <div class="pure-g">
             <div class="pure-u-1-2">
-              <h3 ng-bind="vm.resume.formation_title"></h3>
-              <p ng-bind="vm.resume.formation"></p>
-            </div>
-            <div class="pure-u-1-2">
               <h3 ng-bind="vm.resume.languages_title">Languages</h3>
               <p ng-repeat="language in vm.resume.languages" ng-bind="language"></p>
+            </div>
+            <div class="pure-u-1-2">
+              <h3 ng-bind="vm.resume.formation_title"></h3>
+              <p ng-bind="vm.resume.formation"></p>
             </div>
           </div>
         </div>

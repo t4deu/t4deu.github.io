@@ -124,7 +124,7 @@ header {
   }
 
   #zce {
-    width: 80px;
+    width: 110px;
     position: absolute;
     right: 15px;
     top: 30px;
@@ -230,11 +230,18 @@ aside {
 }
 
 @media (min-width: 35.5em) {
-  .visible-md {display:block !important;}
+  .visible-md {
+    display: block !important;
+  }
+
+  .hidden-md {
+    display: none;
+  }
 
   body {
     margin: 25px 25px 50px;
   }
+
   .content {
     position: relative;
     margin-left: 28px;
@@ -275,12 +282,14 @@ aside {
     margin: 0;
   }
 
-  body {
+  html, body {
     width: 210mm;
-    height: 297mm;
+    height: 290mm;
+  }
 
-    margin: 0 0 20px;
-    font-size: 10pt;
+  body {
+    margin: 0;
+    font-size: 11pt;
     -webkit-print-color-adjust: exact;
 
     .container {
@@ -288,12 +297,12 @@ aside {
     }
 
     h2 {
-      font-size: 13pt;
+      font-size: 14pt;
       margin-bottom: 5px;
     }
 
     h3 {
-      font-size: 11pt;
+      font-size: 12pt;
       margin-bottom: 5px;
     }
 
@@ -306,7 +315,7 @@ aside {
 
     .content {
       &:before {
-        height: 96.5%;
+        height: 97.5%;
       }
     }
   }
