@@ -1,16 +1,16 @@
 {
   "about_title": "Sobre mim",
-  "about": "Sou um desenvolvedor web e mobile com certificação Zend e mais de 5 anos de experiência em Rails, Android e Angularjs. Eu tenho trabalhado no desenvolvimento de soluções para grandes clientes nacionais e internacionais como Cielo, Lafarge e CAHP Credit Union.<br><br>Colegas me conhecem por minha criatividade e habilidades de desenvolvimento. Mas sempre penso no negócio do cliente em primeiro lugar, procurando entregar resultados eficazes e não linhas de código perfeito.<br><br>Eu adoro trabalhar em projetos diferentes, especialmente com tecnologias recentes.",
+  "about": "Sou um desenvolvedor web e mobile com certificação Zend e mais de 5 anos de experiência em Rails, Android e AngularJs. Eu tenho trabalhado no desenvolvimento de soluções para startups e em projetos para grandes clientes nacionais e internacionais como Cielo, Siemens, Lafarge e CAHP Credit Union.<br><br>Colegas me conhecem por minha criatividade e habilidades de desenvolvimento. Mas sempre penso no negócio do cliente em primeiro lugar, procurando entregar resultados eficazes e não linhas de código.<br><br>Eu adoro trabalhar em projetos diferentes, especialmente com tecnologias recentes.",
   "highlights_title": "Qualidades",
   "highlights": [
-      "Autodidata e com rápido aprendizado",
-      "Programo em várias linguagens diferentes",
+      "Rápido aprendizado",
+      "Desenvolvo em várias linguagens diferentes",
       "Sigo boas práticas de desenvolvimento",
       "Mais de 3 anos de experiência com home office",
       "Escrevo um código limpo e reutilizável",
       "Trabalho bem independentemente",
       "Criativo e ágil na solução de problemas",
-      "Entrego resultados eficazes e não linhas de código"
+      "Consigo seguir prazos e entregar resultados eficazes"
   ],
   "contact_title": "Entre em contato",
   "skills_title": "Habilidades",
@@ -61,11 +61,15 @@
           "title": "Databases",
           "items": [
               {
-                  "percent": 67,
+                  "percent": 70,
+                  "title": "PostgreSQL"
+              },
+              {
+                  "percent": 75,
                   "title": "MySql"
               },
               {
-                  "percent": 70,
+                  "percent": 65,
                   "title": "MongoDb"
               }
           ]
@@ -73,29 +77,31 @@
   },
   "tools_title": "Conhecimentos & Ferramestas",
   "tools": [
+  		"A/b Tests",
       "MVC",
       "BDD & TDD",
       "Domain Driven Development",
       "Unix",
+      "Code Coverage",
+      "Continuous Integration",
       "Sass/less",
-      "A/b testes",
-      "MVP analisis and development",
-      "Design Patterns",
-      "Git"
+      "Git",
+      "MVP (Minimum Viable Product)",
+      "Design Patterns"
   ],
   "experiences_title": "Experiencia",
   "experiences": [
       {
           "company": "MeuMobi  2012 - atualmente",
-          "description": "Desenvolvimento de aplicativos móveis para clientes como Santander, Cielo e Lafarge.<br>Desenvolvimento da plataforma de desenvolvimento web baseada na nuvem que permite aos usuários criar websites responsivos em HTML5.<br>Criação de um sistema de alerta que permite que clientes enviem notificações push para aplicativos e usuários específicos em dispositivos iOS e Android.<br>Criação de algoritmos avançados para os serviços de importação de dados com múltiplas fontes de dados, como feeds RSS, e APIs XML e JSON. onde vários desafios tiveram de ser superados nas a nível de banco de dados e aplicativos."
+          "description": "Introduzi tecnologia SPA(Angular) que é agora base para criação de apps de relacionamento com investidores e comunicação interna de empresas como Santander, Cielo, Siemens e Embraer.<br><br>Atuei no desenvolvimento da plataforma de desenvolvimento web baseada na nuvem que permite aos usuários criar websites responsivos em HTML5.<br><br>Na Criação de um sistema de alerta que permite que clientes enviem notificações push para aplicativos e usuários específicos em dispositivos iOS e Android.<br><br>E no Desenvolvimento de algoritmos avançados para os serviços de importação de dados com múltiplas fontes de dados, como feeds RSS, e APIs XML e JSON. onde vários desafios tiveram de ser superados nas a nível de banco de dados e aplicativos."
       },
       {
           "company": "Código Digital 2011 - 2012",
-          "description": "Desenvolvimento de aplicativos e criação de presenças web para múltiplos negócios. Com maior foco em UX e design usando ferramentas como bootstrap, sass e css3."
+          "description": "Atuei no desenvolvimento de aplicativos e criação de presenças web para múltiplos negócios. Com maior foco em UX e design usando ferramentas como bootstrap, sass e css3."
       },
       {
           "company": "Noix 2010 - 2011",
-          "description": "Criação de integração em tempo real entre o catálogo e vendas de uma loja Magento Enterprise e o ERP java de uma grande loja de informática, para permitir a transferência segura, eficaz e controlada de dados de alta importância, tais como endereços de clientes, pedidos e dados de cartões de crédito.<br> Também permitir gerenciar o catálogo e estoque da loja on-line através do ERP."
+          "description": "Trabalhei na criação de integração em tempo real entre o catálogo e vendas de uma loja Magento Enterprise e o ERP java de uma grande loja de informática, para permitir a transferência segura, eficaz e controlada de dados de alta importância, tais como endereços de clientes, pedidos e dados de cartões de crédito. Também permitir gerenciamento do catálogo e estoque da loja on-line através do ERP."
       }
   ],
   "education_title": "Educação",
