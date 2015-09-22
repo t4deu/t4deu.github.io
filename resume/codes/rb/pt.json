@@ -1,16 +1,16 @@
 {
   "about_title": "Sobre mim",
-  "about": "Sou um desenvolvedor web e mobile com certificação Zend e mais de 5 anos de experiência em Rails, Android e AngularJs. Eu tenho trabalhado no desenvolvimento de soluções para startups e em projetos para grandes clientes nacionais e internacionais como Cielo, Siemens, Lafarge e CAHP Credit Union.<br><br>Colegas me conhecem por minha criatividade e habilidades de desenvolvimento. Mas sempre penso no negócio do cliente em primeiro lugar, procurando entregar resultados eficazes e não linhas de código.<br><br>Eu adoro trabalhar em projetos diferentes, especialmente com tecnologias recentes.",
+  "about": "Sou um desenvolvedor web e mobile com certificação Zend e mais de 5 anos de experiência em Ruby, Php, Android e AngularJs. Eu tenho trabalhado no desenvolvimento de soluções para startups e em projetos para grandes clientes nacionais e internacionais como Cielo, Siemens, Lafarge e CAHP Credit Union.<br><br>Eu adoro participar da comunidade Open Source, contribuindo sempre que possível. Colegas me conhecem por minha criatividade e habilidades de desenvolvimento.<br><br>Sou focado nas idéias e resultados esperados, entregando soluções eficazes e não linhas de código.",
   "highlights_title": "Qualidades",
   "highlights": [
-      "Rápido aprendizado",
-      "Desenvolvo em várias linguagens diferentes",
+      "Conhecimento avançado em múltiplas linguagens",
       "Sigo boas práticas de desenvolvimento",
+      "Habilidades sólidas em refatoração",
+      "Super confortável em desenvolver front-end ou back-end",
       "Mais de 3 anos de experiência com home office",
       "Escrevo um código limpo e reutilizável",
-      "Trabalho bem independentemente",
-      "Criativo e ágil na solução de problemas",
-      "Consigo seguir prazos e entregar resultados eficazes"
+      "Sempre disposto a ensinar e muito mais à aprender",
+      "Criativo e ágil na solução de problemas"
   ],
   "contact_title": "Entre em contato",
   "skills_title": "Habilidades",
@@ -19,7 +19,7 @@
           "title": "Desenvolvimento",
           "items": [
               {
-                  "percent": 80,
+                  "percent": 85,
                   "title": "Ruby"
               },
               {
@@ -34,9 +34,13 @@
                   "percent": 70,
                   "title": "Javascript"
               },
-              {
-                  "percent": 83,
+             {
+                  "percent": 80,
                   "title": "Ruby on Rails"
+              },
+              {
+                  "percent": 80,
+                  "title": "Java"
               },
               {
                   "percent": 74,
@@ -75,25 +79,31 @@
           ]
       }
   },
-  "tools_title": "Conhecimentos & Ferramestas",
+  "tools_title": "Conhecimentos & Ferramentas",
   "tools": [
-  		"A/b Tests",
-      "MVC",
+  		"A/B Tests",
       "BDD & TDD",
-      "Domain Driven Development",
+      "SOLID",
+      "Thor",
+      "DDD",
       "Unix",
-      "Code Coverage",
-      "Continuous Integration",
-      "Sass/less",
+      "ES6",
+      "RSpec",
+      "Minitest",
+      "Gulp",
+      "RequireJS",
+      "Mocking",
+      "Functional Programing",
+      "MVC",
       "Git",
-      "MVP (Minimum Viable Product)",
-      "Design Patterns"
+      "Rake",
+      "Continuous Integration & Delivery"
   ],
   "experiences_title": "Experiencia",
   "experiences": [
       {
           "company": "MeuMobi  2012 - atualmente",
-          "description": "Introduzi tecnologia SPA(Angular) que é agora base para criação de apps de relacionamento com investidores e comunicação interna de empresas como Santander, Cielo, Siemens e Embraer.<br><br>Atuei no desenvolvimento da plataforma de desenvolvimento web baseada na nuvem que permite aos usuários criar websites responsivos em HTML5.<br><br>Na Criação de um sistema de alerta que permite que clientes enviem notificações push para aplicativos e usuários específicos em dispositivos iOS e Android.<br><br>E no Desenvolvimento de algoritmos avançados para os serviços de importação de dados com múltiplas fontes de dados, como feeds RSS, e APIs XML e JSON. onde vários desafios tiveram de ser superados nas a nível de banco de dados e aplicativos."
+          "description": "Introduzi tecnologia SPA (AngularJs), que é agora base para criação de apps de relacionamento com investidores e de comunicação interna para empresas como Santander, Cielo, Siemens e Embraer.<br><br>Atuei na criação de plataforma de desenvolvimento web baseada na nuvem, que permite aos usuários criar websites responsivos em HTML5.<br><br>Também no desenvolvimento de um sistema de alerta para dispositivos IOS e Android, que permite o envio de notificações push para múltiplos aplicativos e devices específicos, ao mesmo tempo e de forma simples.<br><br>No aperfeiçoamento de api RESTful, permitindo o gerenciamento de conteúdo e usuários, autenticação e melhoramento de performance com implementação algoritmos de cache.<br><br>E no desenvolvimento de algoritmos avançados para criação de background services de importação de dados, com múltiplas fontes de dados, como feeds RSS, APIs XML e JSON. Onde vários desafios de sincronização, concurrency e consistência de dados tiveram de ser superados."
       },
       {
           "company": "Código Digital 2011 - 2012",
@@ -101,7 +111,7 @@
       },
       {
           "company": "Noix 2010 - 2011",
-          "description": "Trabalhei na criação de integração em tempo real entre o catálogo e vendas de uma loja Magento Enterprise e o ERP java de uma grande loja de informática, para permitir a transferência segura, eficaz e controlada de dados de alta importância, tais como endereços de clientes, pedidos e dados de cartões de crédito. Também permitir gerenciamento do catálogo e estoque da loja on-line através do ERP."
+          "description": "Trabalhei no desenvolvimento de integração em tempo real entre a loja virtual e o ERP de uma das maiores lojas de informática do Nordeste.<br><br>Para permitir a transferência segura, eficaz e controlada de dados de alta importância, tais como endereços de clientes, pedidos e dados de cartões de crédito.<br><br>Também permitir a sincronização do catálogo e estoque entre loja virtual e ERP."
       }
   ],
   "education_title": "Educação",
@@ -114,8 +124,8 @@
   ],
   "courses_title": "Certificação e Cursos",
   "courses": [
-      "Certificado PHP enginer developer",
-      "Android Development, Full Stack Web Development and Algorimts at Udacity",
-      "Javascript development at freecodecamp"
+      "Certified Zend PHP enginer developer",
+      "Android Development, Full Stack Web Development and Algorimts - Udacity",
+      "Javascript development - freecodecamp"
   ]
 }

@@ -37,7 +37,6 @@
 
     function getResume(code, language) {
       return resumeService.loadResume(code, language).then(function(resume) {
-        console.log(resume);
         return vm.resume = resume;
       });
     }

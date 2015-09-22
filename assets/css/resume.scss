@@ -55,6 +55,14 @@ li {
   margin-top: 5px;
 }
 
+.p-r-s {
+  padding-right: 5px;
+}
+
+.p-l-s {
+  padding-left: 5px;
+}
+
 .badge {
   display: inline-block;
   min-width: 10px;
@@ -73,6 +81,23 @@ li {
 
 .text-center {
   text-align: center;
+}
+
+.bullets {
+  li {
+    position: relative;
+    margin: 2px 0;
+    padding-left: 10px;
+
+    &:before {
+      content: "\203A";
+      font-size: 11pt;
+      line-height: 11pt;
+      position: absolute;
+      left: 0;
+      top: 0px;
+    }
+  }
 }
 
 /**
@@ -119,11 +144,7 @@ header {
     font-family: 'Lobster', cursive;
     font-size: 5em;
     line-height: 0.9em;
-    margin: 20px 0;
-
-    #name {
-
-    }
+    margin: 0;
 
     #last-name {
       display: block;
@@ -141,24 +162,6 @@ header {
 
 aside {
   position: relative;
-
-  .highlights {
-    li {
-      margin: 2px 0;
-      position: relative;
-      padding-left: 10px;
-
-      &:before {
-        content: "\203A";
-        font-size: 11pt;
-        line-height: 11pt;
-        position: absolute;
-        left: 0;
-        top: 0px;
-      }
-    }
-  }
-
 }
 
 .social {
@@ -167,6 +170,7 @@ aside {
   li {
     margin: 4px 0;
   }
+
   i {
     margin: 4px 2px 3px 0;
     font-size: 1.6em;
@@ -176,7 +180,7 @@ aside {
 
 .content {
   .skills {
-    padding: 0 20px 15px 0;
+    padding: 0 0 15px 0;
 
     li{
       color: #fff;
@@ -237,6 +241,12 @@ aside {
   }
 }
 
+@media (max-width: 35.5em) {
+  .no-p-xs {
+    padding: 0;
+  }
+}
+
 @media (min-width: 35.5em) {
   .visible-md {
     display: block !important;
@@ -259,21 +269,21 @@ aside {
       position: absolute;
       left: -17px;
       top: 15px;
-      height: 94.5%;
+      height: 97.5%;
       width: 1px;
       border-right: 1px solid #34352d;
     }
 
     .skills {
-      padding: 0 20px 0 0;
+      padding: 0;
     }
 
     .skills + h3 {
       margin-top: 15px;
     }
-
   }
 }
+
 
 @media print {
 
@@ -302,6 +312,7 @@ aside {
 
     .container {
       width: auto;
+      margin-top: 15px;
     }
 
     h2 {
@@ -318,6 +329,11 @@ aside {
       h1 {
         font-size: 44pt;
         line-height: 44pt;
+
+        #last-name {
+          display: block;
+          margin-left: 50px;
+        }
       }
     }
 
