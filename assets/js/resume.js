@@ -1,25 +1,43 @@
 (function() {
   'use strict';
 
-  angular.module('app', [])
+  angular.module('app', ['ngRoute'])
+  .config(Bootstrap)
   .controller('Resume', Resume)
   .factory('resumeService', resumeService)
   .filter('to_trusted', toTrusted);
 
-  Resume.$inject = ['resumeService'];
+  Bootstrap.$inject = ['$routeProvider'];
+  Resume.$inject = ['resumeService', '$routeParams'];
   resumeService.$inject = ['$http'];
   toTrusted.$inject = ['$sce'];
 
-  function Resume(resumeService) {
+  function Bootstrap($routeProvider) {
+    $routeProvider
+    .when('/:code/:language?', {
+      controller: 'Resume',
+      controllerAs: 'vm',
+      templateUrl: 'resume.html'
+    }).
+    otherwise({
+      templateUrl: 'not_found.html'
+    });
+
+  }
+
+  function Resume(resumeService, $routeParams) {
     var vm = this;
     vm.resume = {};
 
-    getResume();
+    var code = $routeParams.code;
+    var language = $routeParams.language || 'pt';
+    getResume(code, language);
 
     //////////
 
-    function getResume(language) {
-      return resumeService.loadResume(language).then(function(resume) {
+    function getResume(code, language) {
+      return resumeService.loadResume(code, language).then(function(resume) {
+        console.log(resume);
         return vm.resume = resume;
       });
     }
@@ -34,8 +52,8 @@
 
     //////////
 
-    function loadResume(language) {
-      return $http.get('resume/pt/ruby.json')
+    function loadResume(code, language) {
+      return $http.get('/resume/codes/' + code + '/' + language + '.json')
         .then(loadResumeFinish)
         .catch(loadResumeFailed);
 
