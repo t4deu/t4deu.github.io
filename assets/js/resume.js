@@ -8,36 +8,40 @@
   .filter('to_trusted', toTrusted);
 
   Bootstrap.$inject = ['$routeProvider'];
-  Resume.$inject = ['resumeService', '$routeParams'];
+  Resume.$inject = ['resumeService', '$routeParams', '$location'];
   resumeService.$inject = ['$http'];
   toTrusted.$inject = ['$sce'];
 
   function Bootstrap($routeProvider) {
     $routeProvider
+    .when('/not_found', {
+      templateUrl: 'not_found.html'
+    })
     .when('/:code/:language?', {
       controller: 'Resume',
       controllerAs: 'vm',
       templateUrl: 'resume.html'
-    }).
-    otherwise({
-      templateUrl: 'not_found.html'
+    })
+    .otherwise({
+      redirectTo: '/not_found'
     });
 
   }
 
-  function Resume(resumeService, $routeParams) {
+  function Resume(resumeService, $routeParams, $location) {
     var vm = this;
-    vm.resume = {};
-
     var code = $routeParams.code;
     var language = $routeParams.language || 'pt';
+
     getResume(code, language);
 
     //////////
 
     function getResume(code, language) {
       return resumeService.loadResume(code, language).then(function(resume) {
-        return vm.resume = resume;
+        vm.resume = resume;
+      }).catch(function() {
+        $location.path('/not_found');
       });
     }
   }
@@ -53,15 +57,10 @@
 
     function loadResume(code, language) {
       return $http.get('/resume/codes/' + code + '/' + language + '.json')
-        .then(loadResumeFinish)
-        .catch(loadResumeFailed);
+        .then(loadResumeFinish);
 
       function loadResumeFinish(response) {
         return response.data;
-      }
-
-      function loadResumeFailed(error) {
-        console.log(error);
       }
     }
   }

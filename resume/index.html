@@ -23,7 +23,7 @@
   </script>
 
   <script type="text/ng-template" id="resume.html">
-    <div class="pure-g container">
+    <div ng-if="vm.resume" class="pure-g container">
       <div>
         <aside class="pure-u-1 pure-u-sm-7-24">
           <header class="m-b">
@@ -31,7 +31,7 @@
               <span id="name">Tadeu</span> <span id="last-name">Valentt</span>
             </h1>
 
-            <img ng-if="mv.resume.seal" id="zce" class="hidden visible-md" ng-src="{{mv.resume.seal}}"/>
+            <img ng-if="vm.resume.seal" id="zce" class="hidden visible-md" ng-src="{{vm.resume.seal}}"/>
           </header>
 
           <div class="m-b">
