@@ -27,11 +27,11 @@
                   "title": "Php"
               },
               {
-                  "percent": 75,
+                  "percent": 65,
                   "title": "Android"
               },
               {
-                  "percent": 70,
+                  "percent": 75,
                   "title": "Javascript"
               },
              {
@@ -39,7 +39,7 @@
                   "title": "Ruby on Rails"
               },
               {
-                  "percent": 80,
+                  "percent": 70,
                   "title": "Java"
               },
               {
@@ -97,7 +97,8 @@
       "MVC",
       "Git",
       "Rake",
-      "Continuous Integration & Delivery"
+      "Continuous Integration & Delivery",
+      "Capybara"
   ],
   "experiences_title": "Experiencia",
   "experiences": [
@@ -116,16 +117,14 @@
   ],
   "education_title": "Educação",
   "formation_title": "Formação",
-  "formation": "Superior incompleto",
+  "formations": [
+    "Zend certified engineer",
+    "Android Development, Full Stack Web Development - Udacity",
+    "Superior incompleto"
+  ],
   "languages_title": "Linguas",
   "languages": [
       "Espanhol técnico",
       "Ingles fluente"
-  ],
-  "courses_title": "Certificação e Cursos",
-  "courses": [
-      "Certified Zend PHP enginer developer",
-      "Android Development, Full Stack Web Development and Algorimts - Udacity",
-      "Javascript development - freecodecamp"
   ]
 }
