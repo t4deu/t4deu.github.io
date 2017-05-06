@@ -1,0 +1,25 @@
+<footer>
+    {% include paginate.html %}
+    {% include suggestion.html %}
+    <hr />
+    <div class="user-footer">
+        <div class="copyright alignable pull-left">
+            {% if site.copyright %}
+                <h2> &copy;{{ site.copyright }}</h2>
+            {% else %}
+                <h2> &copy;{{ site.title }}</h2>
+            {% endif %}
+        </div>
+        <div class="social-links">
+            <a target="_blank" href="https://twitter.com/{{ site.twitter_username }}" class="muted-link">
+                @{{ site.twitter_username }}
+            </a>
+            <a href="mailto:{{ site.email }}" class="muted-link">
+                mail
+            </a>
+            <a target="_blank" href="{{ site.url }}{{ site.baseurl }}/feed.xml" class="muted-link">
+                rss
+            </a>
+        </div>
+    </div>
+</footer>

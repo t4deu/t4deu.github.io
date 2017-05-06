@@ -1,0 +1,90 @@
+# User Settings | Edit there as per required
+
+title: Tadeu Valentt | Full Stack Developer
+url: "http://ankitsultana.com"
+baseurl: ""
+
+# This will show up at the top of index page
+site_heading: >
+    I build <span>Ideas</span> and create <span>Solutions</span> for startups & companies
+
+email: tadeu.valentt@gmail.com
+author: t4deu
+# This description will show up in google search results
+# (for index page) etc.
+description: >
+    Tadeu Valentt delivers effective results, crafting outstanding solutions for startups &amp; companies. Specialized on Mobile and Web development
+# This will what will show against &copy; in the footer
+copyright: valentt
+# Toggle your short bio, which will displayed on your index page
+# Just toggle it and run jekyll again to see
+intro: true         # Tip: Remove the span from site_heading if intro is set to true
+# This will be displayed in your intro
+short_bio: >
+    Hi! I'm an experienced <span>Full Stack Developer</span> specialized
+    on <span>Mobile</span> and <span>Web</span> development.
+    I always deliver the top quality features and solutions for startups & companies.
+
+permalink: /:title.html
+
+# Comments are powered by disqus
+comments: false
+
+# keep about_stub roughly 12 words long for best results
+# This will show up at the bottom of each post
+# Note that about_footer should be true if you want
+# to see author information at the bottom of each post
+about_stub: >
+    Just a guy who likes code and beer
+
+about_footer: true
+
+twitter_username: t4deu
+github_username: t4deu
+facebook_id: t4deu
+
+favicon: true
+favicon_location: "images/favicon.ico"
+
+profile_picture: images/profile.jpg
+paginate: 5
+paginate_path: "/page/:num"
+tracking_id: UA-69243691-7 # GA Tracking ID
+
+# Social Stuff | open graph and twitter cards
+og_image: "images/accent.png" # This will show in facebook thumbnails
+twitter_image: "http://ankitsultana.com/images/accent.png?1234" # This will show in twitter cards
+
+####################################
+####################################
+####################################
+### Build Settings | Don't Touch ###
+####################################
+####################################
+####################################
+
+markdown: kramdown
+
+gems:
+    - jekyll-paginate
+
+sass:
+    style: compressed
+    sass_dir: _sass
+
+# Scopes
+defaults:
+    -
+        scope:
+            path:   ""
+            type:   "pages"
+        values:
+            layout: "page"
+    -
+        scope:
+            path:   ""
+            type:   "posts"
+        values:
+            layout: "post"
+
+exclude: [vendor] # For travis ci
