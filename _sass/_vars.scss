@@ -9,6 +9,7 @@ $base-line-height: 1.5;
 $base-spacing: $base-line-height * 1em;
 $small-spacing: $base-spacing / 2;
 $max-width: 1170px;
+$max-posts-width: 800px;
 
 $break-small: 480px;
 $break-medium: 700px;
@@ -16,7 +17,7 @@ $break-large: 980px;
 
 $big-circle-size: 30px;
 $footer-size: 230px;
-$about-image-size: 280px;
+$about-image-size: 100px;
 
 // Colors
 $accent-color: #ff0f00;//#2358D1;

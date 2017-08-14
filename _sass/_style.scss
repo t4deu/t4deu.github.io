@@ -3,6 +3,7 @@
 @import "grid";
 @import "vars";
 @import "typography";
+@import "rrssb";
 
 html {
 	height: 100%;
@@ -176,6 +177,13 @@ footer {
     margin: auto;
     padding: $base-spacing;
 }
+
+.post-wrapper {
+  .container {
+    max-width: $max-posts-width;
+  }
+}
+
 .post-preview {
     display: block;
     width: 100%;
@@ -292,14 +300,24 @@ hr {
 #img-about {
     margin: inherit $base-spacing;
     float: left;
+
+    img.about-img {
+        height: $about-image-size;
+        width: $about-image-size;
+        border-radius: $about-image-size;
+        margin: $base-spacing/3 $base-spacing/5;
+        margin-right: $base-spacing;
+    }
 }
+
 img.about-img {
-    height: $about-image-size;
-    width: $about-image-size;
-    border-radius: $about-image-size;
-    margin: $base-spacing/3 $base-spacing/5;
-    margin-right: $base-spacing;
+  height: $about-image-size * 2.8;
+  width: $about-image-size * 2.8;
+  border-radius: $about-image-size * 2.8;
+  margin: $base-spacing/3 $base-spacing/5;
+  margin-right: $base-spacing;
 }
+
 .no-image {
     @extend .about-img;
     height: $about-image-size/1.2;
@@ -321,4 +339,8 @@ h1.hero-quote {
   box-shadow: 25px 50px 70px -50px rgba(0, 0, 0, 0.24);
 	padding: 0;
 	line-height: 0;
+}
+
+.rrssb-buttons {
+    margin: $base-spacing 0;
 }
