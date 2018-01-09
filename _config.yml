@@ -25,7 +25,7 @@ short_bio: >
     on <span>Mobile</span> and <span>Web</span> development.
     I always deliver the top quality features and solutions for startups & companies.
 
-permalink: /:title.html
+permalink: /:categories/:title/
 
 # Comments are powered by disqus
 comments: false
@@ -65,8 +65,9 @@ twitter_image: "http://ankitsultana.com/images/accent.png?1234" # This will show
 
 markdown: kramdown
 
-gems:
+plugins:
     - jekyll-paginate
+    - jemoji
 
 sass:
     style: compressed
