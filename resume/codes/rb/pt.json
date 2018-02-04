@@ -1,0 +1,130 @@
+{
+  "about_title": "Sobre mim",
+  "about": "Sou um desenvolvedor web e mobile com certificação Zend e mais de 5 anos de experiência em Ruby, Php, Android e AngularJs. Eu tenho trabalhado no desenvolvimento de soluções para startups e em projetos para grandes clientes nacionais e internacionais como Cielo, Siemens, Lafarge e CAHP Credit Union.<br><br>Eu adoro participar da comunidade Open Source, contribuindo sempre que possível. Colegas me conhecem por minha criatividade e habilidades de desenvolvimento.<br><br>Sou focado nas idéias e resultados esperados, entregando soluções eficazes e não linhas de código.",
+  "highlights_title": "Qualidades",
+  "highlights": [
+      "Conhecimento avançado em múltiplas linguagens",
+      "Sigo boas práticas de desenvolvimento",
+      "Habilidades sólidas em refatoração",
+      "Super confortável em desenvolver front-end ou back-end",
+      "Mais de 3 anos de experiência com home office",
+      "Escrevo um código limpo e reutilizável",
+      "Sempre disposto a ensinar e muito mais à aprender",
+      "Criativo e ágil na solução de problemas"
+  ],
+  "contact_title": "Entre em contato",
+  "skills_title": "Habilidades",
+  "skills": {
+    "development": {
+          "title": "Desenvolvimento",
+          "items": [
+              {
+                  "percent": 85,
+                  "title": "Ruby"
+              },
+              {
+                  "percent": 85,
+                  "title": "Php"
+              },
+              {
+                  "percent": 65,
+                  "title": "Android"
+              },
+              {
+                  "percent": 75,
+                  "title": "Javascript"
+              },
+             {
+                  "percent": 80,
+                  "title": "Ruby on Rails"
+              },
+              {
+                  "percent": 70,
+                  "title": "Java"
+              },
+              {
+                  "percent": 74,
+                  "title": "AngularJs"
+              }
+          ]
+      },
+    "design": {
+          "title": "Design",
+          "items": [
+              {
+                  "percent": 75,
+                  "title": "Html5"
+              },
+              {
+                  "percent": 60,
+                  "title": "Css3"
+              }
+          ]
+      },
+    "database": {
+          "title": "Databases",
+          "items": [
+              {
+                  "percent": 70,
+                  "title": "PostgreSQL"
+              },
+              {
+                  "percent": 75,
+                  "title": "MySql"
+              },
+              {
+                  "percent": 65,
+                  "title": "MongoDb"
+              }
+          ]
+      }
+  },
+  "tools_title": "Conhecimentos & Ferramentas",
+  "tools": [
+  		"A/B Tests",
+      "BDD & TDD",
+      "SOLID",
+      "Thor",
+      "DDD",
+      "Unix",
+      "ES6",
+      "RSpec",
+      "Minitest",
+      "Gulp",
+      "RequireJS",
+      "Mocking",
+      "Functional Programing",
+      "MVC",
+      "Git",
+      "Rake",
+      "Continuous Integration & Delivery",
+      "Capybara"
+  ],
+  "experiences_title": "Experiencia",
+  "experiences": [
+      {
+          "company": "MeuMobi  2012 - atualmente",
+          "description": "Introduzi tecnologia SPA (AngularJs), que é agora base para criação de apps de relacionamento com investidores e de comunicação interna para empresas como Santander, Cielo, Siemens e Embraer.<br><br>Atuei na criação de plataforma de desenvolvimento web baseada na nuvem, que permite aos usuários criar websites responsivos em HTML5.<br><br>Também no desenvolvimento de um sistema de alerta para dispositivos IOS e Android, que permite o envio de notificações push para múltiplos aplicativos e devices específicos, ao mesmo tempo e de forma simples.<br><br>No aperfeiçoamento de api RESTful, permitindo o gerenciamento de conteúdo e usuários, autenticação e melhoramento de performance com implementação algoritmos de cache.<br><br>E no desenvolvimento de algoritmos avançados para criação de background services de importação de dados, com múltiplas fontes de dados, como feeds RSS, APIs XML e JSON. Onde vários desafios de sincronização, concurrency e consistência de dados tiveram de ser superados."
+      },
+      {
+          "company": "Código Digital 2011 - 2012",
+          "description": "Atuei no desenvolvimento de aplicativos e criação de presenças web para múltiplos negócios. Com maior foco em UX e design usando ferramentas como bootstrap, sass e css3."
+      },
+      {
+          "company": "Noix 2010 - 2011",
+          "description": "Trabalhei no desenvolvimento de integração em tempo real entre a loja virtual e o ERP de uma das maiores lojas de informática do Nordeste.<br><br>Para permitir a transferência segura, eficaz e controlada de dados de alta importância, tais como endereços de clientes, pedidos e dados de cartões de crédito.<br><br>Também permitir a sincronização do catálogo e estoque entre loja virtual e ERP."
+      }
+  ],
+  "education_title": "Educação",
+  "formation_title": "Formação",
+  "formations": [
+    "Zend certified engineer",
+    "Android Development, Full Stack Web Development - Udacity",
+    "Superior incompleto"
+  ],
+  "languages_title": "Linguas",
+  "languages": [
+      "Espanhol técnico",
+      "Ingles fluente"
+  ]
+}
