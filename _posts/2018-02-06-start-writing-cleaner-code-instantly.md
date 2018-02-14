@@ -1,5 +1,5 @@
 ---
-title: How to write a cleaner code instantly
+title: Start writing a cleaner code instantly
 categories:
   - Development
 tags:
