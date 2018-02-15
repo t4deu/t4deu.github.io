@@ -1,21 +1,20 @@
 <header class="navbar-grid container">
   <nav class="">
-      <a href="{{ site.baseurl }}/">
-          <span class="alignable pull-left back-outer">
-              <span class="alignable pull-left back-inner">
-              </span>
-          </span>
-      </a>
+    <a href="{{ site.baseurl }}/">
+      <span class="alignable pull-left back-outer">
+        <span class="alignable pull-left back-inner">
+        </span>
+      </span>
+    </a>
   </nav>
-
 
   <nav class="navbar">
     {% if page.url != "/" %}
-      <a href="/" class="navbar-link">Home</a>
+    <a href="/" class="navbar-link">Home</a>
     {% endif %}
     <a href="/work" class="navbar-link">Work</a>
     <a href="/approach" class="navbar-link">Approach</a>
     <a href="/about" class="navbar-link">About</a>
-    <a href="mailto:{{ site.email }}" class="navbar-link">Contact</a>
+    <a href="#contact" class="navbar-link">Contact</a>
   </nav>
 </header>
