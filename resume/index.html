@@ -52,7 +52,7 @@
 
             <address>
               tadeu.valentt@gmail.com<br>
-              +55 83 8717-7575<br>
+              +55 83 99634-4895<br>
               João Pessoa, PB - Brasil<br>
             </address>
 
@@ -75,10 +75,10 @@
                   linkedin.com/in/t4deu
                 </a>
               </li>
-               <li>
-                <a>
-                  <i class="fa fa-lg fa-whatsapp"></i>
-                  + 55 83 8717-7575
+              <li>
+                <a href="https://t4deu.github.io">
+                  <i class="fa fa-lg fa-globe"></i>
+                  t4deu.github.io
                 </a>
               </li>
             </ul>
@@ -91,9 +91,18 @@
 
             <div class="pure-g">
               <div class="pure-u-1 pure-u-sm-1-2 p-r-s no-p-xs">
-                <h3 ng-bind="vm.resume.skills.development.title"></h3>
+                <h3 ng-bind="vm.resume.skills.backend.title"></h3>
                 <ul class="skills">
-                  <li ng-repeat="skill in vm.resume.skills.development.items">
+                  <li ng-repeat="skill in vm.resume.skills.backend.items">
+                  <p style="width: {{skill.percent}}%">
+                      <span ng-bind="skill.title"></span>
+                    </p>
+                  </li>
+                </ul>
+
+                <h3 ng-bind="vm.resume.skills.mobile.title"></h3>
+                <ul class="skills">
+                  <li ng-repeat="skill in vm.resume.skills.mobile.items">
                   <p style="width: {{skill.percent}}%">
                       <span ng-bind="skill.title"></span>
                     </p>
@@ -101,18 +110,18 @@
                 </ul>
               </div>
               <div class="pure-u-1 pure-u-sm-1-2 p-l-s no-p-xs">
-                <h3 ng-bind="vm.resume.skills.design.title"></h3>
+                <h3 ng-bind="vm.resume.skills.frontend.title"></h3>
                 <ul class="skills">
-                  <li ng-repeat="skill in vm.resume.skills.design.items">
+                  <li ng-repeat="skill in vm.resume.skills.frontend.items">
                   <p style="width: {{skill.percent}}%">
                       <span ng-bind="skill.title"></span>
                     </p>
                   </li>
                 </ul>
 
-                <h3 ng-bind="vm.resume.skills.database.title"></h3>
+                <h3 ng-bind="vm.resume.skills.methodologies.title"></h3>
                 <ul class="skills">
-                  <li ng-repeat="skill in vm.resume.skills.database.items">
+                  <li ng-repeat="skill in vm.resume.skills.methodologies.items">
                   <p style="width: {{skill.percent}}%">
                       <span ng-bind="skill.title"></span>
                     </p>
@@ -137,27 +146,12 @@
             </div>
           </div>
 
-          <div class="pure-g">
-            <div id="education" class="pure-u-1-2">
-              <h2 ng-bind="vm.resume.education_title"></h2>
-              <ul class="bullets">
-                <li ng-repeat="formation in vm.resume.formations" ng-bind="formation"></li>
-              </ul>
-            </div>
-            <div id="languages" class="pure-u-1-2">
-              <h2 ng-bind="vm.resume.languages_title"></h2>
-              <ul class="bullets">
-                <li ng-repeat="language in vm.resume.languages" ng-bind="language"></li>
-              </ul>
-            </div>
-          </div>
-
           <div class="hidden-md m-t">
             <h2 ng-bind="vm.resume.contact_title"></h2>
 
             <address>
               tadeu.valentt@gmail.com<br>
-              +55 83 8717-7575<br>
+              +55 83 99634-4895<br>
               João Pessoa, PB - Brasil<br>
             </address>
 
@@ -180,10 +174,16 @@
                   linkedin.com/in/t4deu
                 </a>
               </li>
+              <li>
+                <a href="https://t4deu.github.io">
+                  <i class="fa fa-lg fa-globe"></i>
+                  t4deu.github.io
+                </a>
+              </li>
                <li>
                 <a>
                   <i class="fa fa-lg fa-whatsapp"></i>
-                  + 55 83 8717-7575
+                  + 55 83 99634-4895
                 </a>
               </li>
             </ul>

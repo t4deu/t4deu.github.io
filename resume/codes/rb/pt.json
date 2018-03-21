@@ -103,7 +103,11 @@
   "experiences_title": "Experiencia",
   "experiences": [
       {
-          "company": "MeuMobi  2012 - atualmente",
+          "company": "Pet Anjo  2015 - 2018",
+          "description": "Introduzi tecnologia SPA (AngularJs), que é agora base para criação de apps de relacionamento com investidores e de comunicação interna para empresas como Santander, Cielo, Siemens e Embraer.<br><br>Atuei na criação de plataforma de desenvolvimento web baseada na nuvem, que permite aos usuários criar websites responsivos em HTML5.<br><br>Também no desenvolvimento de um sistema de alerta para dispositivos IOS e Android, que permite o envio de notificações push para múltiplos aplicativos e devices específicos, ao mesmo tempo e de forma simples.<br><br>No aperfeiçoamento de api RESTful, permitindo o gerenciamento de conteúdo e usuários, autenticação e melhoramento de performance com implementação algoritmos de cache.<br><br>E no desenvolvimento de algoritmos avançados para criação de background services de importação de dados, com múltiplas fontes de dados, como feeds RSS, APIs XML e JSON. Onde vários desafios de sincronização, concurrency e consistência de dados tiveram de ser superados."
+      },
+      {
+          "company": "MeuMobi  2012 - 2015",
           "description": "Introduzi tecnologia SPA (AngularJs), que é agora base para criação de apps de relacionamento com investidores e de comunicação interna para empresas como Santander, Cielo, Siemens e Embraer.<br><br>Atuei na criação de plataforma de desenvolvimento web baseada na nuvem, que permite aos usuários criar websites responsivos em HTML5.<br><br>Também no desenvolvimento de um sistema de alerta para dispositivos IOS e Android, que permite o envio de notificações push para múltiplos aplicativos e devices específicos, ao mesmo tempo e de forma simples.<br><br>No aperfeiçoamento de api RESTful, permitindo o gerenciamento de conteúdo e usuários, autenticação e melhoramento de performance com implementação algoritmos de cache.<br><br>E no desenvolvimento de algoritmos avançados para criação de background services de importação de dados, com múltiplas fontes de dados, como feeds RSS, APIs XML e JSON. Onde vários desafios de sincronização, concurrency e consistência de dados tiveram de ser superados."
       },
       {
