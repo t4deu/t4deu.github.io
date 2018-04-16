@@ -1,6 +1,6 @@
 {
   "about_title": "About me",
-  "about": "I'm a Full Stack developer with a extreme agile process, lean approach and a lot of web and mobile development skills. With a background of more than eight years of experience in development and problem solving.<br><br>My most recent job was in a successful startup, where I was the lead developer of a small but very efficient IT team.<br><br>I love to get involved in the open source community, contributing whenever possible for projects like React Native, Hanami.<br><br>I infuse a startup-like energy with fast results and lean approach into large projects and bring the quality and discipline from my skills and experience into startups teams. With a goal to solve problems and achieve results rather than deliver lines of code.",
+  "about": "I'm a Full Stack developer with a extreme agile process, lean approach and exceptional backend and mobile development skills.<br><br>With a background of more than eight years, I have extensive experience developing scalable features, APIs and apps from scratch using Ruby and React.<br><br>I love to get involved in the open source community, contributing whenever possible for projects like React Native, Hanami.<br><br>I have passion for best practices and for writing clean and reusable code, but my main goal is to solve problems and achieve results rather than deliver lines of code.",
   "highlights_title": "Highlights",
   "highlights": [
     "Skills with multiple languages",
@@ -107,11 +107,11 @@
   "experiences": [
       {
           "company": "Pet Anjo 2015 - 2018",
-          "description": "I worked as a lead developer of this successful peer to peer marketplace startup. Directly involved in the analysis, definition and development of the best solutions for our problems.<br>During my time there, we were able to increase our GMV in 480% and our monthly active customers in 580%.<br><br>Constantly improving the Ruby on Rails platform, from the search algorithms to a better checkout process. Designed and implemented a gamification system to inspire quality of the hosts in order to boost conversions. Created the RESTful API and the native app build with React Native, Redux and Redux Saga.<br><br> I also introduced the DevOps culture and practices for the entire team so we cold build, test, and release faster and more reliably solutions."
+          "description": "I was the lead developer of this successful startup, a peer-to-peer marketplace. Directly involved in the analysis, definition and development of solutions.<br><br>Constantly improving the Ruby on Rails platform, I created the search algorithms for a better checkout process. Designed and implemented a gamification system to encourage and reward the best hosts in order to boost conversions. Created the RESTful API and the native app build with React Native, Redux and Redux Saga.<br><br> I also introduced the DevOps culture and practices for the entire team so we cold build, test, and release faster and more reliably solutions."
       },
       {
           "company": "MeuMobi  2012 - 2015",
-          "description": "Here I worked with the development of mobile solutions for major clients such as Santander, Cielo and Lafarge a french industrial company and the CAHP Credit Union.<br><br>Also with a cloud-based web development platform that allows users create HTML5 websites and mobile sites.<br><br>Creation of advanced algorithms for data import services with multiple data sources, such as RSS feeds, xml and Json REST APIs. Where challenges had to be overcome at the database and application layers."
+          "description": "Here I worked in the development of mobile solutions for big companies, like Santander, Cielo, Lafarge and the CAHP Credit Union.<br><br>I also developed a cloud-based platform that allows users create HTML5 websites and mobile sites.<br><br>Worked on the creation of advanced algorithms for data import services with multiple sources, like RSS feeds, xml and REST APIs. Where challenges had to be overcome at the database and application layers."
       },
       {
           "company": "Código Digital 2011 - 2012",
@@ -119,7 +119,7 @@
       },
       {
           "company": "Noix 2010 - 2011",
-          "description": "Creation of real-time integration between the catalog and sales of a Magento Enterprise and the java ERP of a large local computer store to allow the safe, effective and controlled transfer of high importance data, such as customer addresses, orders and credit cards. <br>Also allow manage the catalog and stock of the online store through the ERP"
+          "description": "Creation of real-time integration between the catalog and sales of a Magento Enterprise and the java ERP of a large computer store to allow the safe, effective and controlled transfer of high risk data, such as customer addresses, orders and credit cards. <br>Allow the management of the catalog and stock through the ERP"
       }
   ],
   "education_title": "Education",

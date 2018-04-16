@@ -37,7 +37,7 @@ ESLint turns your code stronger, but Prettier will make it look sexy. The best p
 #### ESLint
 We will install ESLint using Airbnb’s style guide, It is supper simple! First run the following command from your project root directory:
 ```
- $ yarn add eslint --dev
+ $ yarn add eslint babel-eslint --dev
 ```
 With ESlint installed, lets set up the inital ESlint configuration, run this command.
 
