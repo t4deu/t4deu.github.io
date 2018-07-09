@@ -106,6 +106,10 @@
   "experiences_title": "Experience",
   "experiences": [
       {
+          "company": "SmartMei 2018",
+          "description": "Working at this fintech, I designed and implemented the GraphQL API used as the core data layer of the micro service architecture, working on top of different data sources and consumed by multiple services, from the mobile app to the transfers and payment system, queued jobs and statistics reports.<br><br>Also implemented a direct integration with acquiring banks, in order to process thousands of transactions per day, from transfers to bill payments.<br><br>Improved the platform tests and structure, in order to prevent issues, strengthen business logic and allow changes."
+      },
+      {
           "company": "Pet Anjo 2015 - 2018",
           "description": "I was the lead developer of this successful startup, a peer-to-peer marketplace. Directly involved in the analysis, definition and development of solutions.<br><br>Constantly improving the Ruby on Rails platform, I created the search algorithms for a better checkout process. Designed and implemented a gamification system to encourage and reward the best hosts in order to boost conversions. Created the RESTful API and the native app build with React Native, Redux and Redux Saga.<br><br> I also introduced the DevOps culture and practices for the entire team so we cold build, test, and release faster and more reliably solutions."
       },

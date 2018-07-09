@@ -1,13 +1,13 @@
 {
   "about_title": "About me",
-  "about": "I'm a web and mobile developer, certified by Zend, with more than 5 years of experience with Ruby, Php, Android and AngularJs. I've been working on the development of solutions for startups and in projects for major national and international clients, like Cielo, Siemens, Lafarge and CAHP Credit Union.<br><br>I love to get involved in the open source community, contributing whenever possible. Colleagues know me by my creativity and code skills.<br><br>I'm focused on the ideas and expected results. Delivering effective solutions rather than lines of code.",
+  "about": "I'm a Full Stack developer with a extreme agile process, lean approach and exceptional backend and mobile development skills.<br><br>With a background of more than eight years, I have extensive experience developing scalable features, APIs and apps from scratch using Ruby and React.<br><br>I love to get involved in the open source community, contributing whenever possible for projects like React Native, Hanami.<br><br>I have passion for best practices and for writing clean and reusable code, but my main goal is to solve problems and achieve results rather than deliver lines of code.",
   "highlights_title": "Highlights",
   "highlights": [
-    "Samurai skills with multiple languages",
+    "Skills with multiple languages",
     "Passion for best practices",
     "Fearless refactoring practitioner",
     "Super comfortable developing for frontend or backend",
-    "Over 3 years of experience with home office",
+    "Over 5 years of experience working remotely",
     "Write a clean and reusable code",
     "Always willing to teach and even more to learn",
     "Über Problem-solving skills"
@@ -15,106 +15,111 @@
   "contact_title": "Contact me",
   "skills_title": "Skills",
   "skills": {
-    "development": {
-          "title": "Development",
+    "backend": {
+          "title": "Backend",
           "items": [
               {
-                  "percent": 85,
+                  "percent": 92,
                   "title": "Ruby"
               },
               {
-                  "percent": 85,
-                  "title": "Php"
+                "percent": 80,
+                "title": "Ruby on Rails"
               },
               {
-                  "percent": 65,
-                  "title": "Android"
-              },
-              {
-                  "percent": 75,
-                  "title": "Javascript"
-              },
-              {
-                  "percent": 80,
-                  "title": "Ruby on Rails"
-              },
-              {
-                  "percent": 70,
-                  "title": "Java"
-              },
-              {
-                  "percent": 74,
-                  "title": "AngularJs"
+                "percent": 75,
+                "title": "Node JS"
               }
           ]
       },
-    "design": {
-          "title": "Design",
+    "frontend": {
+          "title": "Frontend",
           "items": [
               {
-                  "percent": 75,
-                  "title": "Html5"
+                "percent": 85,
+                "title": "React"
               },
               {
-                  "percent": 60,
-                  "title": "Css3"
+                "percent": 80,
+                "title": "ES6+"
+              },
+              {
+                  "percent": 90,
+                  "title": "Redux"
               }
           ]
       },
-    "database": {
-          "title": "Databases",
+    "methodologies": {
+          "title": "Abilities",
           "items": [
               {
-                  "percent": 70,
-                  "title": "PostgreSQL"
+                "percent": 94,
+                "title": "Problem Solving"
               },
               {
                   "percent": 75,
-                  "title": "MySql"
+                  "title": "DevOps"
               },
               {
-                  "percent": 65,
-                  "title": "MongoDb"
+                "percent": 80,
+                "title": "Soft skills"
               }
           ]
-      }
+      },
+    "mobile": {
+        "title": "Mobile",
+        "items": [
+            {
+                "percent": 93,
+                "title": "React Native"
+            },
+            {
+                "percent": 75,
+                "title": "Android"
+            },
+            {
+                "percent": 55,
+                "title": "IOS"
+            }
+        ]
+    }
   },
   "tools_title": "Knowledge & Tools",
   "tools": [
-  		"A/B Tests",
       "BDD & TDD",
       "SOLID",
-      "Coffeescript",
-      "Unix",
-      "Grunt",
-      "Ionic",
-      "EmberJs",
-      "Functional Programing",
-      "Phonegap",
-      "RequireJs",
-      "ES6",
-      "Slim",
-      "RequireJS",
+      "DDD",
+      "GraphQl",
+      "Rest",
+      "Ecto",
       "Jasmine",
-      "Continuous Integration & Delivery",
-      "Gulp",
-      "Git",
-      "Sass",
-      "Mocha"
+      "Detox",
+      "Expo",
+      "Unix",
+      "Jest",
+      "Redux Observable",
+      "Redux Saga",
+      "Aws",
+      "Heroku",
+      "Git"
   ],
   "experiences_title": "Experience",
   "experiences": [
       {
-          "company": "MeuMobi  2012 - present",
-          "description": "I Introduced SPA technology (angularjs), which is now the basis to create apps for investors relations and internal communications for companies such as Santander, Cielo, Siemens and Embraer.<br><br>I worked on the creation of the cloud-based web development platform, that allows common users create responsive HTML5 websites.<br><br>Also on the development of an notification service for IOS and Android devices, which enables sending push notifications to multiple applications and specific devices, at same time and in a simple way.<br><br>With the improvement of a RESTful API, allowing management of content and users, authentication and performance enhancement by implementing caching algorithms.<br><br>And on the development of advanced algorithms for creating background services that can import data from multiple sources, such as RSS feeds, XML and JSON APIs. Where multiple challenges of synchronization, concurrency and data consistency had to be overcome."
+          "company": "SmartMei 2018",
+          "description": "Working at this fintech, I designed and implemented the GraphQL API used as the core data layer of the micro service architecture, working on top of different data sources and consumed by multiple services, from the mobile app to the transfers and payment system, queued jobs and statistics reports.<br><br>Also implemented a direct integration with acquiring banks, in order to process thousands of transactions per day, from transfers to bill payments.<br><br>Improved the platform tests and structure, in order to prevent issues, strengthen business logic and allow changes."
       },
       {
-          "company": "Código Digital 2011 - 2012",
-          "description": "I worked on the development of apps and creation of web presences for multiple businesses. With greater focus on design, animations, Mobile First, and UX. Using tools like bootstrap, sass and CSS3. Making Photoshop Designs Interfaces come alive."
+          "company": "Pet Anjo 2015 - 2018",
+          "description": "I was the lead developer of this successful startup, a peer-to-peer marketplace. Directly involved in the analysis, definition and development of solutions.<br><br>Constantly improving the Ruby on Rails platform, I created the search algorithms for a better checkout process. Designed and implemented a gamification system to encourage and reward the best hosts in order to boost conversions. Created the RESTful API and the native app build with React Native, Redux and Redux Saga.<br><br> I also introduced the DevOps culture and practices for the entire team so we cold build, test, and release faster and more reliably solutions."
+      },
+      {
+          "company": "MeuMobi  2012 - 2015",
+          "description": "Here I worked in the development of mobile solutions for big companies, like Santander, Cielo, Lafarge and the CAHP Credit Union.<br><br>I also developed a cloud-based platform that allows users create HTML5 websites and mobile sites.<br><br>Worked on the creation of advanced algorithms for data import services with multiple sources, like RSS feeds, xml and REST APIs. Where challenges had to be overcome at the database and application layers."
       },
       {
           "company": "Noix 2010 - 2011",
-          "description": "I worked on the development of a real-time integration between the online store and the ERP of a large computer retailer.<br><br>To allow the safe, effective and controlled transfer of highly important data, such as customer addresses, orders and credit cards data. Also allow the synchronization of the catalog and inventory of the online store and ERP."
+          "description": "Creation of real-time integration between the catalog and sales of a Magento Enterprise and the java ERP of a large computer store to allow the safe, effective and controlled transfer of high risk data, such as customer addresses, orders and credit cards. <br>Allow the management of the catalog and stock through the ERP"
       }
   ],
   "education_title": "Education",
