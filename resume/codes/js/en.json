@@ -107,7 +107,7 @@
   "experiences": [
       {
           "company": "SmartMei 2018",
-          "description": "Working at this fintech, I designed and implemented the GraphQL API used as the core data layer of the micro service architecture, working on top of different data sources and consumed by multiple services, from the mobile app to the transfers and payment system, queued jobs and statistics reports.<br><br>Also implemented a direct integration with acquiring banks, in order to process thousands of transactions per day, from transfers to bill payments.<br><br>Improved the platform tests and structure, in order to prevent issues, strengthen business logic and allow changes."
+          "description": "Working at this FinTech, I designed and implemented the GraphQL API, working on top of different data sources and consumed by multiple services, from the mobile app to the transfers and payment system, queued jobs and statistics reports.<br><br>I also Developed the React administration platform, used to manage thousands of users, payments, deposits, and bank transfers. integrated with Graphql and Rest APIs.<br><br>Implemented a direct integration with acquiring banks, in order to process up to 15k transactions per day, from transfers to bill payments.<span class='print-hidden'><br><br>Improved the platform tests and structure, in order to prevent issues, strengthen business logic and allow fast changes and evolution that every Startup requires.</span>"
       },
       {
           "company": "Pet Anjo 2015 - 2018",
@@ -115,7 +115,7 @@
       },
       {
           "company": "MeuMobi  2012 - 2015",
-          "description": "Here I worked in the development of mobile solutions for big companies, like Santander, Cielo, Lafarge and the CAHP Credit Union.<br><br>I also developed a cloud-based platform that allows users create HTML5 websites and mobile sites.<br><br>Worked on the creation of advanced algorithms for data import services with multiple sources, like RSS feeds, xml and REST APIs. Where challenges had to be overcome at the database and application layers."
+          "description": "Here I worked in the development of mobile solutions for big companies, like Santander, Cielo, Lafarge and the CAHP Credit Union.<br><br><span class='print-hidden'>I also developed a cloud-based platform that allows users create HTML5 websites and mobile sites.<br><br></span>Worked on the creation of advanced algorithms for data import services with multiple sources, like RSS feeds, xml and REST APIs. Where challenges had to be overcome at the database and application layers."
       },
       {
           "company": "Noix 2010 - 2011",
