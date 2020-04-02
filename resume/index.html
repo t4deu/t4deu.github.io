@@ -47,6 +47,11 @@
             </ul>
           </div>
 
+          <div ng-if="vm.resume.salary">
+            <h2 ng-bind="vm.resume.salary_title"></h2>
+            <p class="m-b" ng-bind-html="vm.resume.salary"></p>
+          </div>
+
           <div class="hidden visible-md">
             <h2 ng-bind="vm.resume.contact_title"></h2>
 

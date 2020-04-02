@@ -16,111 +16,113 @@
   "skills_title": "Skills",
   "skills": {
     "backend": {
-          "title": "Backend",
-          "items": [
-              {
-                  "percent": 92,
-                  "title": "Ruby"
-              },
-              {
-                "percent": 80,
-                "title": "Ruby on Rails"
-              },
-              {
-                "percent": 75,
-                "title": "Node JS"
-              }
-          ]
-      },
+      "title": "Backend",
+      "items": [
+        {
+          "percent": 92,
+          "title": "Ruby"
+        },
+        {
+          "percent": 75,
+          "title": "GO"
+        },
+        {
+          "percent": 85,
+          "title": "Node JS"
+        }
+      ]
+    },
     "frontend": {
-          "title": "Frontend",
-          "items": [
-              {
-                "percent": 85,
-                "title": "React"
-              },
-              {
-                "percent": 80,
-                "title": "ES6+"
-              },
-              {
-                  "percent": 90,
-                  "title": "Redux"
-              }
-          ]
-      },
+      "title": "Frontend",
+      "items": [
+        {
+          "percent": 85,
+          "title": "React"
+        },
+        {
+          "percent": 80,
+          "title": "ES6+"
+        },
+        {
+          "percent": 90,
+          "title": "Typescript"
+        }
+      ]
+    },
     "methodologies": {
-          "title": "Abilities",
-          "items": [
-              {
-                "percent": 94,
-                "title": "Problem Solving"
-              },
-              {
-                  "percent": 75,
-                  "title": "DevOps"
-              },
-              {
-                "percent": 80,
-                "title": "Soft skills"
-              }
-          ]
-      },
+      "title": "Abilities",
+      "items": [
+        {
+          "percent": 94,
+          "title": "Problem Solving"
+        },
+        {
+          "percent": 75,
+          "title": "DevOps"
+        },
+        {
+          "percent": 80,
+          "title": "Soft skills"
+        }
+      ]
+    },
     "mobile": {
-        "title": "Mobile",
-        "items": [
-            {
-                "percent": 93,
-                "title": "React Native"
-            },
-            {
-                "percent": 75,
-                "title": "Android"
-            },
-            {
-                "percent": 55,
-                "title": "IOS"
-            }
-        ]
+      "title": "Mobile",
+      "items": [
+        {
+          "percent": 93,
+          "title": "React Native"
+        },
+        {
+          "percent": 75,
+          "title": "Android"
+        },
+        {
+          "percent": 55,
+          "title": "Flutter"
+        }
+      ]
     }
   },
   "tools_title": "Knowledge & Tools",
   "tools": [
-      "BDD & TDD",
-      "SOLID",
-      "DDD",
-      "GraphQl",
-      "Rest",
-      "Ecto",
-      "Jasmine",
-      "Detox",
-      "Expo",
-      "Unix",
-      "Jest",
-      "Redux Observable",
-      "Redux Saga",
-      "Aws",
-      "Heroku",
-      "Git"
+    "SOLID",
+    "GraphQl",
+    "Apollo",
+    "Rest",
+    "Testing",
+    "StoryBook",
+    "Unix",
+    "DDD",
+    "Jest",
+    "Redux",
+    "Webpack",
+    "Docker",
+    "Aws",
+    "Kubernetes",
+    "Microservices",
+    "Git"
   ],
+  "salary_title": "Salary Expectation",
+  "salary": "$60k - 80k",
   "experiences_title": "Experience",
   "experiences": [
-      {
-          "company": "SmartMei 2018",
-          "description": "Working at this FinTech, My first challenge was to design and implement a new GraphQL API with the objective to replace the previous APIs and work on top of different data sources and to be consumed by multiple services, from the mobile app to the transfers and payment system.<br><br>The next mission was to evolve the API to a distributed environment, to be able to schedule more than 60k payments per request while exposing a single data graph for the API clients.<br><br>After that I turned to the frontend, becoming the Teck Lead of the new team responsible to deliver the new administration platform, used to manage thousands of users, payments, deposits, and bank transfers."
-      },
-      {
-          "company": "Pet Anjo 2015 - 2018",
-          "description": "I was the lead developer of this successful startup, a peer-to-peer marketplace. Directly involved in the analysis, definition and development of solutions.<br><br>Constantly improving the Ruby on Rails platform, I created the search algorithms for a better checkout process. Designed and implemented a gamification system to encourage and reward the best hosts in order to boost conversions. Created the RESTful API and the native app build with React Native, Redux and Redux Saga.<br><br> I also introduced the DevOps culture and practices for the entire team so we cold build, test, and release faster and more reliably solutions."
-      },
-      {
-          "company": "MeuMobi  2012 - 2015",
-          "description": "Here I worked in the development of mobile solutions for big companies, like Santander, Cielo, Lafarge and the CAHP Credit Union.<br><br><span class='print-hidden'>I also developed a cloud-based platform that allows users create HTML5 websites and mobile sites.<br><br></span>Worked on the creation of advanced algorithms for data import services with multiple sources, like RSS feeds, xml and REST APIs. Where challenges had to be overcome at the database and application layers."
-      },
-      {
-          "company": "Noix 2010 - 2011",
-          "description": "Creation of real-time integration between the catalog and sales of a Magento Enterprise and the java ERP of a large computer store to allow the safe, effective and controlled transfer of high risk data, such as customer addresses, orders and credit cards. <br>Allow the management of the catalog and stock through the ERP"
-      }
+    {
+      "company": "SmartMei 2018",
+      "description": "Working at this FinTech, My first challenge was to design and implement a new GraphQL API with the objective to replace the previous APIs and work on top of different data sources and to be consumed by multiple services, from the mobile app to the transfers and payment system.<br><br>The next mission was to evolve the API to a distributed environment, to be able to schedule more than 60k payments per request while exposing a single data graph for the API clients.<br><br>After that I turned to the frontend, becoming the Teck Lead of the new team responsible to deliver the new administration platform, used to manage thousands of users, payments, deposits, and bank transfers."
+    },
+    {
+      "company": "Pet Anjo 2015 - 2018",
+      "description": "I was the lead developer of this successful startup, a peer-to-peer marketplace. Directly involved in the analysis, definition and development of solutions.<br><br>Constantly improving the Ruby on Rails platform, I created the search algorithms for a better checkout process. Designed and implemented a gamification system to encourage and reward the best hosts in order to boost conversions. Created the RESTful API and the native app build with React Native, Redux and Redux Saga.<br><br> I also introduced the DevOps culture and practices for the entire team so we cold build, test, and release faster and more reliably solutions."
+    },
+    {
+      "company": "MeuMobi  2012 - 2015",
+      "description": "Here I worked in the development of mobile solutions for big companies, like Santander, Cielo, Lafarge and the CAHP Credit Union.<br><br><span class='print-hidden'>I also developed a cloud-based platform that allows users create HTML5 websites and mobile sites.<br><br></span>Worked on the creation of advanced algorithms for data import services with multiple sources, like RSS feeds, xml and REST APIs. Where challenges had to be overcome at the database and application layers."
+    },
+    {
+      "company": "Noix 2010 - 2011",
+      "description": "Creation of real-time integration between the catalog and sales of a Magento Enterprise and the java ERP of a large computer store to allow the safe, effective and controlled transfer of high risk data, such as customer addresses, orders and credit cards. <br>Allow the management of the catalog and stock through the ERP"
+    }
   ],
   "education_title": "Education",
   "formations": [
@@ -130,7 +132,7 @@
   ],
   "languages_title": "Languages",
   "languages": [
-      "Professional Spanish",
-      "Fluent English"
+    "Professional Spanish",
+    "Fluent English"
   ]
 }
