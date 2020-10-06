@@ -19,24 +19,28 @@
       "title": "Backend",
       "items": [
         {
-          "percent": 92,
-          "title": "Ruby"
-        },
-        {
           "percent": 75,
           "title": "GO"
         },
         {
-          "percent": 85,
+          "percent": 90,
           "title": "Node JS"
         }
+        {
+          "percent": 65,
+          "title": "Python"
+        },
+        {
+          "percent": 85,
+          "title": "Ruby"
+        },
       ]
     },
     "frontend": {
       "title": "Frontend",
       "items": [
         {
-          "percent": 85,
+          "percent": 95,
           "title": "React"
         },
         {
@@ -44,7 +48,7 @@
           "title": "ES6+"
         },
         {
-          "percent": 90,
+          "percent": 85,
           "title": "Typescript"
         }
       ]
@@ -77,10 +81,6 @@
           "percent": 75,
           "title": "Android"
         },
-        {
-          "percent": 55,
-          "title": "Flutter"
-        }
       ]
     }
   },
@@ -109,7 +109,7 @@
   "experiences": [
     {
       "company": "SmartMei 2018",
-      "description": "Working at this FinTech, My first challenge was to design and implement a new GraphQL API with the objective to replace the previous APIs and work on top of different data sources and to be consumed by multiple services, from the mobile app to the transfers and payment system.<br><br>The next mission was to evolve the API to a distributed environment, to be able to schedule more than 60k payments per request while exposing a single data graph for the API clients.<br><br>After that I turned to the frontend, becoming the Teck Lead of the new team responsible to deliver the new administration platform, used to manage thousands of users, payments, deposits, and bank transfers."
+      "description": "Working at this FinTech, My first challenge was to design and implement a new GraphQL API with the objective to replace the previous APIs and work on top of different data sources and to be consumed by multiple services, from the mobile app to the transfers and payment system.<br><br>The next mission was to evolve the API to a distributed environment, to be able to schedule more than 75k payments per request while exposing a single data graph for the API clients.<br><br>After that I turned to the frontend, becoming the Teck Lead of the new team responsible to deliver the new administration platform, used to manage thousands of users, payments, deposits, and bank transfers."
     },
     {
       "company": "Pet Anjo 2015 - 2018",
