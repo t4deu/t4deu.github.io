@@ -1,138 +1,132 @@
 {
-  "about_title": "About me",
-  "about": "I'm a Full Stack developer with a extreme agile process, lean approach and exceptional backend and mobile development skills.<br><br>With a background of more than eight years, I have extensive experience developing scalable features, APIs and apps from scratch using Ruby and React.<br><br>I love to get involved in the open source community, contributing whenever possible for projects like React Native, Hanami.<br><br>I have passion for best practices and for writing clean and reusable code, but my main goal is to solve problems and achieve results rather than deliver lines of code.",
-  "highlights_title": "Highlights",
-  "highlights": [
-    "Skills with multiple languages",
-    "Passion for best practices",
-    "Fearless refactoring practitioner",
-    "Super comfortable developing for frontend or backend",
-    "Over 5 years of experience working remotely",
-    "Write a clean and reusable code",
-    "Always willing to teach and even more to learn",
-    "Über Problem-solving skills"
-  ],
-  "contact_title": "Contact me",
-  "skills_title": "Skills",
-  "skills": {
-    "backend": {
-      "title": "Backend",
-      "items": [
-        {
-          "percent": 75,
-          "title": "GO"
-        },
-        {
-          "percent": 90,
-          "title": "Node JS"
-        }
-        {
-          "percent": 65,
-          "title": "Python"
-        },
-        {
-          "percent": 85,
-          "title": "Ruby"
-        },
-      ]
-    },
-    "frontend": {
-      "title": "Frontend",
-      "items": [
-        {
-          "percent": 95,
-          "title": "React"
-        },
-        {
-          "percent": 80,
-          "title": "ES6+"
-        },
-        {
-          "percent": 85,
-          "title": "Typescript"
-        }
-      ]
-    },
-    "methodologies": {
-      "title": "Abilities",
-      "items": [
-        {
-          "percent": 94,
-          "title": "Problem Solving"
-        },
-        {
-          "percent": 75,
-          "title": "DevOps"
-        },
-        {
-          "percent": 80,
-          "title": "Soft skills"
-        }
-      ]
-    },
-    "mobile": {
-      "title": "Mobile",
-      "items": [
-        {
-          "percent": 93,
-          "title": "React Native"
-        },
-        {
-          "percent": 75,
-          "title": "Android"
-        },
-      ]
-    }
-  },
-  "tools_title": "Knowledge & Tools",
-  "tools": [
-    "SOLID",
-    "GraphQl",
-    "Apollo",
-    "Rest",
-    "Testing",
-    "StoryBook",
-    "Unix",
-    "DDD",
-    "Jest",
-    "Redux",
-    "Webpack",
-    "Docker",
-    "Aws",
-    "Kubernetes",
-    "Microservices",
-    "Git"
-  ],
-  "salary_title": "Salary Expectation",
-  "salary": "$60k - 80k",
-  "experiences_title": "Experience",
-  "experiences": [
-    {
-      "company": "SmartMei 2018",
-      "description": "Working at this FinTech, My first challenge was to design and implement a new GraphQL API with the objective to replace the previous APIs and work on top of different data sources and to be consumed by multiple services, from the mobile app to the transfers and payment system.<br><br>The next mission was to evolve the API to a distributed environment, to be able to schedule more than 75k payments per request while exposing a single data graph for the API clients.<br><br>After that I turned to the frontend, becoming the Teck Lead of the new team responsible to deliver the new administration platform, used to manage thousands of users, payments, deposits, and bank transfers."
-    },
-    {
-      "company": "Pet Anjo 2015 - 2018",
-      "description": "I was the lead developer of this successful startup, a peer-to-peer marketplace. Directly involved in the analysis, definition and development of solutions.<br><br>Constantly improving the Ruby on Rails platform, I created the search algorithms for a better checkout process. Designed and implemented a gamification system to encourage and reward the best hosts in order to boost conversions. Created the RESTful API and the native app build with React Native, Redux and Redux Saga.<br><br> I also introduced the DevOps culture and practices for the entire team so we cold build, test, and release faster and more reliably solutions."
-    },
-    {
-      "company": "MeuMobi  2012 - 2015",
-      "description": "Here I worked in the development of mobile solutions for big companies, like Santander, Cielo, Lafarge and the CAHP Credit Union.<br><br><span class='print-hidden'>I also developed a cloud-based platform that allows users create HTML5 websites and mobile sites.<br><br></span>Worked on the creation of advanced algorithms for data import services with multiple sources, like RSS feeds, xml and REST APIs. Where challenges had to be overcome at the database and application layers."
-    },
-    {
-      "company": "Noix 2010 - 2011",
-      "description": "Creation of real-time integration between the catalog and sales of a Magento Enterprise and the java ERP of a large computer store to allow the safe, effective and controlled transfer of high risk data, such as customer addresses, orders and credit cards. <br>Allow the management of the catalog and stock through the ERP"
-    }
-  ],
-  "education_title": "Education",
-  "formations": [
-    "Zend certified engineer",
-    "Android Development, Full Stack Web Development and Algorimts at Udacity",
-    "Undergraduate degree in progress"
-  ],
-  "languages_title": "Languages",
-  "languages": [
-    "Professional Spanish",
-    "Fluent English"
-  ]
+	"about_title": "About me",
+	"about": "I'm a Full Stack developer with a extreme agile process, lean approach and exceptional backend and mobile development skills.<br><br>With a background of more than eight years, I have extensive experience developing scalable features, APIs and apps from scratch using Ruby and React.<br><br>I love to get involved in the open source community, contributing whenever possible for projects like React Native, Hanami.<br><br>I have passion for best practices and for writing clean and reusable code, but my main goal is to solve problems and achieve results rather than deliver lines of code.",
+	"highlights_title": "Highlights",
+	"highlights": [
+		"Skills with multiple languages",
+		"Passion for best practices",
+		"Fearless refactoring practitioner",
+		"Super comfortable developing for frontend or backend",
+		"Over 5 years of experience working remotely",
+		"Write a clean and reusable code",
+		"Always willing to teach and even more to learn",
+		"Über Problem-solving skills"
+	],
+	"contact_title": "Contact me",
+	"skills_title": "Skills",
+	"skills": {
+		"backend": {
+			"title": "Backend",
+			"items": [{
+					"percent": 75,
+					"title": "GO"
+				},
+				{
+					"percent": 90,
+					"title": "Node JS"
+				}, {
+					"percent": 65,
+					"title": "Python"
+				},
+				{
+					"percent": 85,
+					"title": "Ruby"
+				}
+			]
+		},
+		"frontend": {
+			"title": "Frontend",
+			"items": [{
+					"percent": 95,
+					"title": "React"
+				},
+				{
+					"percent": 80,
+					"title": "ES6+"
+				},
+				{
+					"percent": 85,
+					"title": "Typescript"
+				}
+			]
+		},
+		"methodologies": {
+			"title": "Abilities",
+			"items": [{
+					"percent": 94,
+					"title": "Problem Solving"
+				},
+				{
+					"percent": 75,
+					"title": "DevOps"
+				},
+				{
+					"percent": 80,
+					"title": "Soft skills"
+				}
+			]
+		},
+		"mobile": {
+			"title": "Mobile",
+			"items": [{
+					"percent": 93,
+					"title": "React Native"
+				},
+				{
+					"percent": 75,
+					"title": "Android"
+				}
+			]
+		}
+	},
+	"tools_title": "Knowledge & Tools",
+	"tools": [
+		"SOLID",
+		"GraphQl",
+		"Apollo",
+		"Rest",
+		"Testing",
+		"StoryBook",
+		"Unix",
+		"DDD",
+		"Jest",
+		"Redux",
+		"Webpack",
+		"Docker",
+		"Aws",
+		"Kubernetes",
+		"Microservices",
+		"Git"
+	],
+	"salary_title": "Salary Expectation",
+	"salary": "$60k - 80k",
+	"experiences_title": "Experience",
+	"experiences": [{
+			"company": "SmartMei 2018",
+			"description": "Working at this FinTech, My first challenge was to design and implement a new GraphQL API with the objective to replace the previous APIs and work on top of different data sources and to be consumed by multiple services, from the mobile app to the transfers and payment system.<br><br>The next mission was to evolve the API to a distributed environment, to be able to schedule more than 75k payments per request while exposing a single data graph for the API clients.<br><br>After that I turned to the frontend, becoming the Teck Lead of the new team responsible to deliver the new administration platform, used to manage thousands of users, payments, deposits, and bank transfers."
+		},
+		{
+			"company": "Pet Anjo 2015 - 2018",
+			"description": "I was the lead developer of this successful startup, a peer-to-peer marketplace. Directly involved in the analysis, definition and development of solutions.<br><br>Constantly improving the Ruby on Rails platform, I created the search algorithms for a better checkout process. Designed and implemented a gamification system to encourage and reward the best hosts in order to boost conversions. Created the RESTful API and the native app build with React Native, Redux and Redux Saga.<br><br> I also introduced the DevOps culture and practices for the entire team so we cold build, test, and release faster and more reliably solutions."
+		},
+		{
+			"company": "MeuMobi  2012 - 2015",
+			"description": "Here I worked in the development of mobile solutions for big companies, like Santander, Cielo, Lafarge and the CAHP Credit Union.<br><br><span class='print-hidden'>I also developed a cloud-based platform that allows users create HTML5 websites and mobile sites.<br><br></span>Worked on the creation of advanced algorithms for data import services with multiple sources, like RSS feeds, xml and REST APIs. Where challenges had to be overcome at the database and application layers."
+		},
+		{
+			"company": "Noix 2010 - 2011",
+			"description": "Creation of real-time integration between the catalog and sales of a Magento Enterprise and the java ERP of a large computer store to allow the safe, effective and controlled transfer of high risk data, such as customer addresses, orders and credit cards. <br>Allow the management of the catalog and stock through the ERP"
+		}
+	],
+	"education_title": "Education",
+	"formations": [
+		"Zend certified engineer",
+		"Android Development, Full Stack Web Development and Algorimts at Udacity",
+		"Undergraduate degree in progress"
+	],
+	"languages_title": "Languages",
+	"languages": [
+		"Professional Spanish",
+		"Fluent English"
+	]
 }
