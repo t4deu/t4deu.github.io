@@ -1,204 +1,389 @@
-<!doctype html>
-<html lang="en" ng-app="app">
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Tadeu Valentt">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Tadeu Valentt" />
     <title>Tadeu Valentt</title>
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/assets/css/resume.css">
+    <link
+      rel="stylesheet"
+      href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="/assets/css/resume.css" />
   </head>
 
   <body>
-    <ng-view></ng-view>
-  </body>
+    <div class="pure-g container">
+      <aside class="sidebar pure-u-1 pure-u-sm-8-24">
+        <header class="m-b">
+          <h1>
+            <span id="name">Tadeu</span> <span id="last-name">Valentt</span>
+          </h1>
+        </header>
 
-  <script type="text/ng-template" id="not_found.html">
-    <div class="pure-g container text-center">
-      <div class="pure-u-1">
-      <h2 class="m-t-g">You may be Lost</h2>
-      <p>But don't be afraid, getting lost is just another way of saying 'going exploring.</p>
-      </div>
-    </div>
-  </script>
+        <div class="m-b">
+          <h2 ng-bind="vm.resume.about_title">
+            Software Engineer & Technology Leader
+          </h2>
 
-  <script type="text/ng-template" id="resume.html">
-    <div ng-if="vm.resume" class="pure-g container">
-      <div>
-        <aside class="sidebar pure-u-1 pure-u-sm-7-24">
-          <header class="m-b">
-            <h1>
-              <span id="name">Tadeu</span> <span id="last-name">Valentt</span>
-            </h1>
+          <p ng-bind-html="vm.resume.about|to_trusted">
+            Results oriented, forward thinking team leader and problem
+            solving software engineer with an agile process, lean approach and
+            exceptional software development skills.
+            <br />
+            <br />
+            Methodical and highly skilled engineer with an extensive background
+            in developing and deploying scalable features, APIs, and applications from
+            scratch. Successful at working closely with technical and project
+            management staff to coordinate smooth deployments and ongoing
+            support.
+          </p>
+        </div>
 
-            <img ng-if="vm.resume.seal" id="zce" class="hidden visible-md" ng-src="{{vm.resume.seal}}"/>
-          </header>
+        <div>
+          <h2 ng-bind="vm.resume.highlights_title">Highlights</h2>
+          <ul class="highlights bullets m-b">
+            <li>Results oriented</li>
 
-          <div class="m-b">
-            <h2 ng-bind="vm.resume.about_title"></h2>
+            <li>Evaluate user requirements</li>
 
-            <p ng-bind-html="vm.resume.about|to_trusted"></p>
+            <li>Backend software development</li>
+
+            <li>Frontend software development</li>
+
+            <li>Fearless refactoring practitioner</li>
+
+            <li>Über Problem-solving skills</li>
+
+            <li>Project coordination</li>
+
+            <li>Passion for best practices</li>
+
+            <li>Adaptable and always willing to learn</li>
+          </ul>
+        </div>
+
+        <div class="hidden ng-scope">
+          <h2 ng-bind="vm.resume.salary_title">Salary Expectation</h2>
+          <p class="m-b ng-binding" ng-bind-html="vm.resume.salary"></p>
+        </div>
+
+        <div class="hidden visible-md">
+          <h2 ng-bind="vm.resume.contact_title">Contact me</h2>
+
+          <address>
+            tadeu.valentt@gmail.com<br />
+            +55 83 99634-4895<br />
+            João Pessoa, PB - Brazil<br />
+          </address>
+
+          <ul class="social">
+            <li>
+              <a href="http://stackoverflow.com/users/2611382/t4deu">
+                <i class="fa fa-lg fa-stack-overflow"></i>
+                t4deu
+              </a>
+            </li>
+            <li>
+              <a href="http://github.com/t4deu ">
+                <i class="fa fa-lg fa-github"></i>
+                github.com/t4deu
+              </a>
+            </li>
+            <li>
+              <a href="http://linkedin.com/in/t4deu">
+                <i class="fa fa-lg fa-linkedin"></i>
+                linkedin.com/in/t4deu
+              </a>
+            </li>
+            <!--li>
+              <a href="https://t4deu.github.io">
+                <i class="fa fa-lg fa-globe"></i>
+                t4deu.github.io
+              </a>
+            </li-->
+          </ul>
+        </div>
+      </aside>
+
+      <div class="content pure-u-1 pure-u-sm-15-24">
+        <div id="experience" class="m-b">
+          <h2 ng-bind="vm.resume.experiences_title">Experience</h2>
+          <div>
+            <h3 class="no-m-t">Engineering Manager</h3>
+            <h4>Loft | <i>Jun 2022 - Present</i></h4>
+
+            <ul>
+              <li>
+                Hired, trained, and mentored a team of software engineers
+                responsible for the end-to-end evolution and maintenance of
+                financial integrations.
+              </li>
+              <li>
+                Identified performance and maintainability issues within the
+                inherited software, architect a better solution, validated with
+                stakeholders, oversaw the development, and measured results.
+              </li>
+              <li>
+                Translated product roadmap into engineering goals for the team
+                and communicating with the stakeholders and setting the
+                expectations right. Delivering results for the business by
+                closely working with the PM and Design.
+              </li>
+              <li>
+                Facilitated strategic discussions, architecture planning and
+                technical direction.
+              </li>
+              <li>
+                Oversaw project progress, balancing between short and long-term
+                goals to maximize individual and team performance.
+              </li>
+            </ul>
           </div>
 
           <div>
-            <h2 ng-bind="vm.resume.highlights_title"></h2>
-            <ul class="highlights bullets m-b">
-              <li ng-repeat="highlight in vm.resume.highlights" ng-bind="highlight"></li>
+            <h3>Tech Lead /  Senior Software Engineer</h3>
+            <h4>SmartMei | <i>Jan 2018 - May 2021</i></h4>
+            <ul>
+              <li>
+                Proposed, designed, and implemented a new GraphQL API using a
+                microservice structure while exposing a single data graph to the
+                API clients, successfully becoming the standard solution for the
+                company being adopted by all squads.
+              </li>
+              <li>
+                Managed FullStack development team, conducting one-on-ones,
+                performance reviews, and architectural meetings. Mentoring and
+                growing talent as a software leader.
+              </li>
+              <li>
+                Architect, oversee, and developed the successful React-based CRM
+                platform, from concept to consumer that manages thousands of
+                users, payments, deposits, and bank transfers.
+              </li>
+              <li>
+                Developed the B2B focused payment platform from the ground up,
+                delivering the POC in weeks, and quickly evolving it into one of
+                the company's main products.
+              </li>
             </ul>
           </div>
 
-          <div class="hidden" ng-if="vm.resume.salary">
-            <h2 ng-bind="vm.resume.salary_title"></h2>
-            <p class="m-b" ng-bind-html="vm.resume.salary"></p>
-          </div>
-
-          <div class="hidden visible-md">
-            <h2 ng-bind="vm.resume.contact_title"></h2>
-
-            <address>
-              tadeu.valentt@gmail.com<br>
-              +55 83 99634-4895<br>
-              João Pessoa, PB - Brazil<br>
-            </address>
-
-            <ul class="social">
+          <div>
+            <h3>Tech Lead /  Senior Software Engineer</h3>
+            <h4>Pet Anjo | <i>Oct 2015 - Dec 2017</i></h4>
+            <ul>
               <li>
-                <a href="http://stackoverflow.com/users/2611382/t4deu">
-                  <i class="fa fa-lg fa-stack-overflow"></i>
-                  t4deu
-                </a>
+                Responsible for the design of new features, coordination of
+                sprints, and evolution of our product.
               </li>
               <li>
-                <a href="http://github.com/t4deu ">
-                  <i class="fa fa-lg fa-github"></i>
-                  github.com/t4deu
-                </a>
+                Perfected our search algorithm, notably increasing our
+                host/guest's successful match, boosting our conversions.
               </li>
               <li>
-                <a href="http://linkedin.com/in/t4deu">
-                  <i class="fa fa-lg fa-linkedin"></i>
-                  linkedin.com/in/t4deu
-                </a>
+                Designed and developed a shopping cart checkout process from the
+                scratch. Integrating with multiple payment gateways.
               </li>
               <li>
-                <a href="https://t4deu.github.io">
-                  <i class="fa fa-lg fa-globe"></i>
-                  t4deu.github.io
-                </a>
+                Designed and implemented a gamification system to encourage and
+                reward the best hosts in order to improve the service quality
+              </li>
+              <li>
+                Delivered a virtual wallet architecture to keep track of the
+                user's transactions, receivables, and payments.
               </li>
             </ul>
           </div>
-        </aside>
-
-        <div class="content pure-u-1 pure-u-sm-16-24">
-          <div id="skills" class="m-b">
-            <h2 ng-bind="vm.resume.skills_title"></h2>
-
-            <div class="pure-g">
-              <div class="pure-u-1 pure-u-sm-1-2 p-r-s no-p-xs">
-                <h3 ng-bind="vm.resume.skills.backend.title"></h3>
-                <ul class="skills">
-                  <li ng-repeat="skill in vm.resume.skills.backend.items">
-                  <p style="width: {{skill.percent}}%">
-                      <span ng-bind="skill.title"></span>
-                    </p>
-                  </li>
-                </ul>
-
-                <h3 ng-bind="vm.resume.skills.mobile.title"></h3>
-                <ul class="skills">
-                  <li ng-repeat="skill in vm.resume.skills.mobile.items">
-                  <p style="width: {{skill.percent}}%">
-                      <span ng-bind="skill.title"></span>
-                    </p>
-                  </li>
-                </ul>
-              </div>
-              <div class="pure-u-1 pure-u-sm-1-2 p-l-s no-p-xs">
-                <h3 ng-bind="vm.resume.skills.frontend.title"></h3>
-                <ul class="skills">
-                  <li ng-repeat="skill in vm.resume.skills.frontend.items">
-                  <p style="width: {{skill.percent}}%">
-                      <span ng-bind="skill.title"></span>
-                    </p>
-                  </li>
-                </ul>
-
-                <h3 ng-bind="vm.resume.skills.methodologies.title"></h3>
-                <ul class="skills">
-                  <li ng-repeat="skill in vm.resume.skills.methodologies.items">
-                  <p style="width: {{skill.percent}}%">
-                      <span ng-bind="skill.title"></span>
-                    </p>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div id="knowledge" class="m-b print-hidden">
-            <h2 ng-bind="vm.resume.tools_title"></h2>
-            <p>
-              <span class="badge" ng-repeat="tool in vm.resume.tools" ng-bind="tool"></span>
-            </p>
-          </div>
-
-          <div id="experience" class="m-b">
-            <h2 ng-bind="vm.resume.experiences_title"></h2>
-            <div ng-repeat="experience in vm.resume.experiences">
-              <h3 ng-bind="experience.company"></h3>
-              <p ng-bind-html="experience.description|to_trusted"></p>
-            </div>
-          </div>
-
-          <div class="hidden-md m-t">
-            <h2 ng-bind="vm.resume.contact_title"></h2>
-
-            <address>
-              tadeu.valentt@gmail.com<br>
-              +55 83 99634-4895<br>
-              João Pessoa, PB - Brasil<br>
-            </address>
-
-            <ul class="social">
-              <li>
-                <a href="http://stackoverflow.com/users/2611382/t4deu">
-                  <i class="fa fa-lg fa-stack-overflow"></i>
-                  t4deu
-                </a>
-              </li>
-              <li>
-                <a href="http://github.com/t4deu ">
-                  <i class="fa fa-lg fa-github"></i>
-                  github.com/t4deu
-                </a>
-              </li>
-              <li>
-                <a href="http://linkedin.com/in/t4deu">
-                  <i class="fa fa-lg fa-linkedin"></i>
-                  linkedin.com/in/t4deu
-                </a>
-              </li>
-              <li>
-                <a href="https://t4deu.github.io">
-                  <i class="fa fa-lg fa-globe"></i>
-                  t4deu.github.io
-                </a>
-              </li>
-               <li>
-                <a>
-                  <i class="fa fa-lg fa-whatsapp"></i>
-                  + 55 83 99634-4895
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
         </div>
       </div>
     </div>
-  </script>
+    <!-- breack -->
+    <div class="pagebreak"></div>
+    <div class="pure-g container m-t page">
+      <aside class="sidebar pure-u-1 pure-u-sm-8-24">
+        <header class="m-b">
+          <h1>
+            <span id="name"></span>
+          </h1>
+        </header>
+        <div id="knowledge" class="m-b">
+          <h2 ng-bind="vm.resume.tools_title">Software Development Skills</h2>
+          <p>
+            <span class="badge">SOLID</span>
+            <span class="badge">Typescript</span>
+            <span class="badge">GraphQl</span>
+            <span class="badge">Rest</span>
+            <span class="badge">NodeJs</span>
+            <span class="badge">Testing</span>
+            <span class="badge">DDD</span>
+            <span class="badge">Design Patterns</span>
+            <span class="badge">GO</span>
+            <span class="badge">AWS</span>
+            <span class="badge">GIT</span>
+            <span class="badge">Microservices</span>
+            <span class="badge">SQL</span>
+            <span class="badge">Ruby</span>
+            <span class="badge">Serverless</span>
+            <span class="badge">NoSQL</span>
+            <span class="badge">Event-driven architecture</span>
+          </p>
+        </div>
 
+        <div id="knowledge" class="m-b">
+          <h2 ng-bind="vm.resume.tools_title">Soft Skills</h2>
+          <p>
+            <span class="badge">Prioritization</span>
+            <span class="badge">Adaptability</span>
+            <span class="badge">Problem-solving</span>
+            <span class="badge">Leadership</span>
+            <span class="badge">Teamwork</span>
+            <span class="badge">Goal setting</span>
+            <span class="badge">Constructive feedback</span>
+            <span class="badge">Self-management</span>
+            <span class="badge">Professionalism</span>
+          </p>
+        </div>
+        <!--
+        <div id="skills" class="m-b">
+          <h2 ng-bind="vm.resume.skills_title">Skills</h2>
+
+          <h3 ng-bind="vm.resume.skills.backend.title">Backend</h3>
+          <ul class="skills">
+            <li>
+              <p style="width: 75%">
+                <span>GO</span>
+              </p>
+            </li>
+            <li>
+              <p style="width: 90%">
+                <span>Node JS</span>
+              </p>
+            </li>
+            <li>
+              <p style="width: 65%">
+                <span>Python</span>
+              </p>
+            </li>
+            <li>
+              <p style="width: 85%">
+                <span>Ruby</span>
+              </p>
+            </li>
+          </ul>
+
+          <h3>Mobile</h3>
+          <ul class="skills">
+            <li>
+              <p style="width: 93%">
+                <span>React Native</span>
+              </p>
+            </li>
+            <li>
+              <p style="width: 75%">
+                <span>Android</span>
+              </p>
+            </li>
+          </ul>
+
+          <h3>Frontend</h3>
+          <ul class="skills">
+            <li>
+              <p style="width: 95%">
+                <span>React</span>
+              </p>
+            </li>
+            <li>
+              <p style="width: 80%">
+                <span>ES6+</span>
+              </p>
+            </li>
+            <li>
+              <p style="width: 85%">
+                <span>Typescript</span>
+              </p>
+            </li>
+          </ul>
+
+          <h3>Abilities</h3>
+          <ul class="skills">
+            <li>
+              <p style="width: 94%">
+                <span>Problem Solving</span>
+              </p>
+            </li>
+            <li>
+              <p style="width: 75%">
+                <span>DevOps</span>
+              </p>
+            </li>
+            <li>
+              <p style="width: 80%">
+                <span>Soft skills</span>
+              </p>
+            </li>
+          </ul>
+        </div>
+      --></aside>
+
+      <div class="content pure-u-1 pure-u-sm-15-24">
+        <div id="experience" class="m-b">
+          <div>
+            <h3>Software Engineer</h3>
+            <h4>Ipanemax | <i>jan 2012 - Sep 2015</i></h4>
+            <ul>
+              <li>
+                Worked in the development of mobile solutions for big companies,
+                like Santander, Cielo, Lafarge, and the CAHP Credit Union.
+              </li>
+
+              <li>
+                Developed a cloud-based platform that allows users to create
+                HTML5 websites and mobile sites.
+              </li>
+
+              <li>
+                Worked on the creation of advanced algorithms for data import
+                services with multiple sources, like RSS feeds, XML, and REST
+                APIs. Where challenges had to be overcome at the database and
+                application layers.
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>Software Engineer</h3>
+            <h4>Codigo Digital | Jan 2010 - Nov 2011</h4>
+            <ul>
+              <li>
+                Development of apps and creation of web presences for multiple
+                business. With greater focus on UX and Design using tools like
+                bootstrap, sass and css3.
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>Software Engineer</h3>
+            <h4>Noix | <i>Mar 2009 - Jan 2010</i></h4>
+            <ul>
+              <li>
+                Designed and developed a real-time integration between the
+                catalog and sales of a Magento Enterprise E-commerce and the
+                java ERP of a large local computer store to allow the safe,
+                effective, and controlled transfer of highly sensitive data,
+                such as customer addresses, orders, and credit cards.
+              </li>
+              <li>
+                Implemented the integration that allowed the management of the
+                catalog and stock of the store through the ERP
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular-route.js"></script>
   <script src="/assets/js/resume.js"></script>

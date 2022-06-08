@@ -2,7 +2,7 @@
 # Front matter comment to ensure Jekyll properly reads file.
 ---
 
-@import url(http://fonts.googleapis.com/css?family=Lobster|Cantarell|Oswald);
+@import url('https://fonts.googleapis.com/css2?family=Cantarell&family=Oswald&family=Roboto+Condensed:ital,wght@1,400;1,700&display=swap');
 @import 'pure-min.css';
 @import 'grids-responsive-min.css';
 
@@ -18,17 +18,45 @@
   padding: 0;
 }
 
+body {
+  font-family: 'Cantarell', sans-serif;
+  font-size: 100%;
+  color: #34352d;
+  margin: 0;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: lighter;
+  font-size: 1.4em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-weight: normal;
+}
+
 a {
   text-decoration: none;
   color: #34352d;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-weight: normal;
 }
 
-li {
-  list-style: none;
+ul {
+  padding-left: 15px;
+  li {
+    margin: 8px 0;
+  }
 }
 
 .container {
@@ -40,7 +68,11 @@ li {
 }
 
 .m-t {
-  margin-top: 25px;
+  margin-top: 25px !important;
+}
+
+.no-m-t {
+  margin-top: 0 !important;
 }
 
 .m-b {
@@ -85,12 +117,13 @@ li {
 
 .bullets {
   li {
+    list-style: none;
     position: relative;
-    margin: 2px 0;
+    margin: 4px 0;
     padding-left: 10px;
 
     &:before {
-      content: "\203A";
+      content: '\203A';
       font-size: 11pt;
       line-height: 11pt;
       position: absolute;
@@ -117,33 +150,14 @@ li {
  * Layout
  */
 
-body {
-  font-family: 'Cantarell', sans-serif;
-  font-size: 90%;
-  color: #34352d;
-  margin: 10px;
-}
-
-h2 {
-  font-family: 'Oswald', sans-serif;
-  font-weight: lighter;
-  font-size: 1.4em;
-  text-transform: uppercase;
-  margin-bottom: 10px;
-}
-
-h3 {
-  font-size: 1.2em;
-  margin-bottom: 10px;
-}
-
 header {
   position: relative;
 
   h1 {
-    font-family: 'Lobster', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
     font-size: 5em;
     line-height: 0.9em;
+    font-weight: bold;
     margin: 0;
 
     #last-name {
@@ -162,6 +176,11 @@ header {
 
 aside {
   position: relative;
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
 }
 
 .social {
@@ -178,63 +197,67 @@ aside {
   }
 }
 
-.content {
-  .skills {
-    padding: 0 0 15px 0;
+.skills {
+  padding: 0 0 15px 0;
 
-    li{
-      color: #fff;
-      font-weight: bold;
-      margin: 6px 0;
-      background-color: #F0F0F0;
+  li {
+    color: #fff;
+    font-weight: bold;
+    margin: 6px 0;
+    background-color: #f0f0f0;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    &:after {
+      content: '';
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 0;
+      height: 0;
+      border: 18px solid transparent;
+      border-right-color: #fff;
+    }
+
+    span {
+      display: inline-block;
       position: relative;
-      overflow: hidden;
-      z-index: 0;
-
-      &:last-child {
-        margin-bottom: 0;
-      }
+      background-color: #34352d;
+      padding: 1px 4px;
+      width: 100%;
+      animation-name: loadBar;
+      animation-iteration-count: 1;
+      animation-timing-function: ease-out;
+      animation-duration: 2s;
 
       &:after {
         content: '';
         display: block;
         position: absolute;
-        right: 0;
+        right: -18px;
         top: 0;
         width: 0;
+        z-index: -1;
         height: 0;
-        border: 18px solid transparent;
-        border-right-color: #fff;
-      }
-
-      span {
-        display: inline-block;
-        position: relative;
-        background-color: #34352d;
-        padding: 1px 4px;
-        width: 100%;
-        animation-name: loadBar;
-        animation-iteration-count: 1;
-        animation-timing-function: ease-out;
-        animation-duration: 2s;
-
-        &:after {
-          content: '';
-          display: block;
-          position: absolute;
-          right: -18px;
-          top: 0;
-          width: 0;
-          z-index: -1;
-          height: 0;
-          border: 18px solid #34352d;
-          border-right-color: transparent;
-        }
+        border: 18px solid #34352d;
+        border-right-color: transparent;
       }
     }
   }
+}
 
+.content {
   #experience {
+    h3 {
+      margin-top: 25px;
+    }
+
     div {
       margin-bottom: 15px;
     }
@@ -256,16 +279,12 @@ aside {
     display: none;
   }
 
-  body {
-    margin: 25px 25px 50px;
-  }
-
   .content {
     position: relative;
     margin-left: 28px;
 
     &:before {
-      content: "";
+      content: '';
       position: absolute;
       left: -17px;
       top: 15px;
@@ -284,9 +303,20 @@ aside {
   }
 }
 
-
 @media print {
+  .pagebreak {
+    page-break-before: always;
+  }
 
+  .page {
+    padding-top: 30px !important;
+    .content {
+      &:before {
+        height: 91.5%;
+      }
+    }
+  }
+  /*
   .m-t {
     margin-top: 15px;
   }
@@ -294,38 +324,41 @@ aside {
   .m-b {
    margin-bottom: 15px;
   }
-
+*/
   @page {
     size: A4;
     margin: 0;
+    margin-top: 25px;
   }
 
-  html, body {
+  html,
+  body {
     width: 210mm;
     height: 290mm;
   }
 
   body {
-    margin: 0;
-    font-size: 11pt;
+    font-size: 12pt;
+    margin-top: 0;
     -webkit-print-color-adjust: exact;
 
     .container {
+      margin: 20px;
+      margin-top: 10px;
       width: auto;
-      margin-top: 15px;
     }
 
     h2 {
-      font-size: 14pt;
+      font-size: 16pt;
       margin-bottom: 5px;
     }
 
     h3 {
-      font-size: 12pt;
+      font-size: 14pt;
       margin-bottom: 5px;
     }
 
-    header{
+    header {
       h1 {
         font-size: 44pt;
         line-height: 44pt;
